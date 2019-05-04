@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Constant",
+            "request": "launch",
+            "mainClass": "Constant",
+            "projectName": "HES_POO_Proj_67a5ee74"
+        }
+    ]
+}
