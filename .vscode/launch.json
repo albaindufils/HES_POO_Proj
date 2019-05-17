@@ -2,10 +2,9 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - Constant",
+            "name": "CodeLens (Launch) - AppLauncher",
             "request": "launch",
-            "mainClass": "Constant",
-            "projectName": "HES_POO_Proj_67a5ee74"
+            "mainClass": "src.AppLauncher"
         }
     ]
 }
