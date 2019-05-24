@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LayeredPaneExample",
+            "request": "launch",
+            "mainClass": "datas_proj.LayeredPaneExample",
+            "projectName": "HES_POO_Proj_67a5ee74"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - AppLauncher",
             "request": "launch",
             "mainClass": "src.AppLauncher"

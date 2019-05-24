@@ -1,21 +1,33 @@
 package src.gui;
 
-import gui.*;
-import src.*;
-import gui.panels.TopPanel;
 
-import java.awt.BorderLayout;
-import javax.swing.JFrame;
-import javax.swing.JPanel;;
+import src.Constants;
+import src.gui.panels.BackgroundPanel;
+import src.gui.panels.MiddlePanel;
+import src.gui.panels.TopPanel;
 
+import javax.swing.*;
+import java.awt.*;
 
 
 public class AppFrame extends JFrame {
-     
-    JPanel bot = new TopPanel();
+    JPanel topPanel = new TopPanel();
+    JPanel middlePan = new MiddlePanel();
+    JPanel backImage = new BackgroundPanel();
+
+
     public AppFrame() {
-        add(bot,BorderLayout.NORTH);
-        setSize(Constants.frameHeight, Constants.frameHeight);
+        super();
+        initFrame();
+        add(backImage);
+        backImage.add(topPanel,BorderLayout.NORTH);
+        backImage.add(middlePan,BorderLayout.CENTER);
         setVisible(true);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+    }
+    private void initFrame() {
+        setSize(Constants.MAIN_FRAME_WIDTH, Constants.MAIN_FRAME_HEIGHT);
+        setLayout(new BorderLayout());
+        setResizable(false);
     }
 }

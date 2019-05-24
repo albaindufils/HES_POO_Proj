@@ -1,4 +1,5 @@
 package src;
+
 import src.gui.*;
 
 class AppLauncher {
