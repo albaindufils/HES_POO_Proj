@@ -22,7 +22,8 @@ public class BackgroundPanel extends JPanel {
     }
     @Override
     protected void paintComponent(Graphics g) {
-        super.paintComponent(g);
-        g.drawImage(image.getScaledInstance(Constants.MAIN_FRAME_WIDTH,Constants.MAIN_FRAME_HEIGHT,Image.SCALE_SMOOTH), 0, 0, this); // see javadoc for more info on the parameters
+
+        g.drawImage(image.getScaledInstance(Constants.MAIN_FRAME_WIDTH,Constants.MAIN_FRAME_HEIGHT,Image.SCALE_SMOOTH), 0, 0, this); // see javadoc for more info on the parameter
+
     }
 }

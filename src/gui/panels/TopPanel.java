@@ -12,7 +12,6 @@ public class TopPanel extends MyPanel  {
     
 
     private JLabel datetime = new MyLabel(getTimeFormatted());
-    //private JButton avion = new MainAppButton(Constants.ASSETS_PLANE_PNG,Constants.PLANE_SIZE, Constants.PLANE_SIZE);
 
     public TopPanel() {
         super(new BorderLayout());

@@ -9,8 +9,9 @@ public class MyPanel extends JPanel {
         initPanel();
     }
     private void initPanel() {
-        setOpaque(true);
-        setBackground(new Color(0,0,0,0));
-
+        setBackground(new Color(0,0,0,1));
+        setOpaque(false);
     }
+
+
 }

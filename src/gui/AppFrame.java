@@ -2,9 +2,7 @@ package src.gui;
 
 
 import src.Constants;
-import src.gui.panels.BackgroundPanel;
-import src.gui.panels.MiddlePanel;
-import src.gui.panels.TopPanel;
+import src.gui.panels.*;
 
 import javax.swing.*;
 import java.awt.*;
@@ -12,13 +10,13 @@ import java.awt.*;
 
 public class AppFrame extends JFrame {
     JPanel topPanel = new TopPanel();
-    JPanel middlePan = new MiddlePanel();
+    JPanel middlePan = new MainMiddlePanel();
     JPanel backImage = new BackgroundPanel();
 
-
-    public AppFrame() {
+    public  AppFrame() {
         super();
         initFrame();
+
         add(backImage);
         backImage.add(topPanel,BorderLayout.NORTH);
         backImage.add(middlePan,BorderLayout.CENTER);
@@ -29,5 +27,7 @@ public class AppFrame extends JFrame {
         setSize(Constants.MAIN_FRAME_WIDTH, Constants.MAIN_FRAME_HEIGHT);
         setLayout(new BorderLayout());
         setResizable(false);
+        setLocationRelativeTo(null);
+
     }
 }
