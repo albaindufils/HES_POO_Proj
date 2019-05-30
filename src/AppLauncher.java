@@ -1,9 +1,8 @@
-package src;
 
-import src.gui.*;
+package src;
 
 class AppLauncher {
     public static void main(String[] args) {
-        new AppFrame();
+        new src.gui.AppFrame();
     }
 }
