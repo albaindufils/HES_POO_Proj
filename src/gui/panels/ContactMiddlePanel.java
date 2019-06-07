@@ -9,5 +9,8 @@ public class ContactMiddlePanel extends MyPanel {
         super(new BorderLayout());
         add(new JLabel("ContactMiddlePanel"),BorderLayout.NORTH);
     }
+    @Override
+    protected void init() {
 
+    }
 }

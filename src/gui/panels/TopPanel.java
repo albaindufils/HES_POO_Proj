@@ -1,6 +1,6 @@
 package src.gui.panels;
 
-import src.Constants;
+import src.helper.Constants;
 import src.gui.MyLabel;
 
 import javax.swing.*;
@@ -15,12 +15,17 @@ public class TopPanel extends MyPanel  {
 
     public TopPanel() {
         super(new BorderLayout());
+
+    }
+
+    @Override
+    protected void init() {
         setBackground(Constants.TOP_PANEL_COLOR);
         add(datetime,BorderLayout.CENTER);
-        // add(avion,BorderLayout.WEST);
         initDatetimeLable();
         setTimer();
     }
+
     private void setTimer() {
         Timer timer = new Timer(1000, e -> {
             updateTime(getTimeFormatted());

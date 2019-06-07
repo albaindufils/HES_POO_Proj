@@ -7,6 +7,9 @@ public class CameraMiddlePanel extends MyPanel {
     public CameraMiddlePanel() {
         super(new BorderLayout());
         add(new JLabel("CameraMiddlePanel"),BorderLayout.NORTH);
+    }
+    @Override
+    protected void init() {
 
     }
 }

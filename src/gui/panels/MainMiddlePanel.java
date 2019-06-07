@@ -1,6 +1,6 @@
 package src.gui.panels;
 
-import src.Constants;
+import src.helper.Constants;
 import src.gui.MainAppButton;
 
 import javax.swing.*;
@@ -28,10 +28,12 @@ public class MainMiddlePanel extends MyPanel  {
     public MainMiddlePanel() {
         super(new BorderLayout());
         card_manager = (CardLayout) cards.getLayout();
-        setUp();
+        init();
     }
+    @Override
+    protected void init() {
 
-    private void setUp(){
+
         btnContact.addActionListener(new ButtonBehaviors("contactPanel"));
         btnGallery.addActionListener(new ButtonBehaviors( "galleryPanel"));
         btnPhoto.addActionListener(new ButtonBehaviors( "cameraPanel"));

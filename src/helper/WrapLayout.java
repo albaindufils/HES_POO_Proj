@@ -1,4 +1,4 @@
-package src.assets;
+package src.helper;
 
 import javax.swing.*;
 import java.awt.*;

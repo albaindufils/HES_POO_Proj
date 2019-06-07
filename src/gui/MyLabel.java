@@ -1,6 +1,6 @@
 package src.gui;
 
-import src.Constants;
+import src.helper.Constants;
 
 import javax.swing.*;
 
