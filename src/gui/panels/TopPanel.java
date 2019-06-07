@@ -15,7 +15,7 @@ public class TopPanel extends MyPanel  {
 
     public TopPanel() {
         super(new BorderLayout());
-
+        init();
     }
 
     @Override
@@ -36,7 +36,7 @@ public class TopPanel extends MyPanel  {
        datetime.setText(time);
     }
     private String getTimeFormatted() {
-        return Constants.DATE_FORMATTER.format(LocalDateTime.now());
+        return Constants.CLOCK_DATETIME_FORMATTER.format(LocalDateTime.now());
     }
     private void initDatetimeLable() {
         datetime.setHorizontalAlignment(SwingConstants.CENTER);

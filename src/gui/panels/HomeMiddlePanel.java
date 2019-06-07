@@ -1,7 +1,6 @@
 package src.gui.panels;
 
 import src.helper.Constants;
-import src.models.MyImagesList;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
@@ -10,7 +9,6 @@ import java.io.File;
 import java.io.IOException;
 
 public class HomeMiddlePanel extends MyPanel {
-    private MyImagesList imgArr;
     private BufferedImage image;
 
     public HomeMiddlePanel() {

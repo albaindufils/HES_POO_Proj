@@ -1,5 +1,9 @@
 package src.models;
 
+import src.helper.Constants;
+
+import java.time.LocalDateTime;
+
 public class MyImage {
     private String path;
     private String name;
@@ -16,6 +20,9 @@ public class MyImage {
     public String getPath() { return this.path; }
     public String getCreation_date() { return this.creation_date; }
     public String getModification_date() { return this.modification_date; }
-
+    public void setName(String str) { this.name = str; }
+    public void setModificationDateNow() {
+        modification_date = Constants.DATETIME_FILE_FORMATTER.format(LocalDateTime.now());
+    }
 
 }
