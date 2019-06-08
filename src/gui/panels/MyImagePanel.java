@@ -33,12 +33,15 @@ public class MyImagePanel extends JPanel {
         topPanel = new JPanel(new BorderLayout());
         bottomPanel = new JPanel();
         bottomPanel.setLayout(new BoxLayout(bottomPanel, BoxLayout.PAGE_AXIS));
-
         txt_name.addKeyListener(new KeyWritted());
     }
     public JPanel getTopPanel() {
         return topPanel;
     }
+
+    /**
+     * Cette fonction sert à mettre à jour le panel
+     */
     private void update() {
         txt_name.setText(currImage.getName());
         lbl_path.setText("Filename: " + currImage.getPath());
@@ -65,16 +68,14 @@ public class MyImagePanel extends JPanel {
         public KeyWritted() {}
         @Override
         public void keyTyped(KeyEvent e) {}
-
         @Override
         public void keyPressed(KeyEvent e) {}
-
         @Override
         public void keyReleased(KeyEvent e) {
             currImage.setName(((JTextField) e.getSource()).getText());
             currImage.setModificationDateNow();
             update();
-            bottomPanel.revalidate();
+            // bottomPanel.revalidate();
         }
     }
 }
