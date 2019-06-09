@@ -12,5 +12,15 @@ class ListImage {
 
 class ListContact {
 
+
+
+
 }
 
+class Contact {
+
+
+
+
+
+}

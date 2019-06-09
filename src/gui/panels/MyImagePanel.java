@@ -36,8 +36,7 @@ public class MyImagePanel extends JPanel {
         txt_name.addKeyListener(new KeyWritted());
     }
     public JPanel getTopPanel() {
-        return topPanel;
-    }
+        return topPanel; }
 
     /**
      * Cette fonction sert à mettre à jour le panel
