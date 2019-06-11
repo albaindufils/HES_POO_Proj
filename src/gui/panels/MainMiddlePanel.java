@@ -19,7 +19,7 @@ public class MainMiddlePanel extends MyPanel  {
     JPanel cards = new JPanel(new CardLayout());
     JPanel contactPanel = new ContactMiddlePanel();
     JPanel cameraPanel = new CameraMiddlePanel();
-    JPanel galleryPanel = new GalleryMiddlePanel();
+    GalleryMiddlePanel galleryPanel = new GalleryMiddlePanel();
     JPanel btnPanel = new HomeMiddlePanel();
 
     CardLayout card_manager;
@@ -64,6 +64,9 @@ public class MainMiddlePanel extends MyPanel  {
         @Override
         public void actionPerformed(ActionEvent e) {
             card_manager.show(cards,index);
+            if(index == "galleryPanel") {
+                galleryPanel.updateList();
+            }
         }
     }
 }

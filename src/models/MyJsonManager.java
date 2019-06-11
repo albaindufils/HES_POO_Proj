@@ -1,6 +1,7 @@
 package src.models;
 
 import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
@@ -18,7 +19,6 @@ public class MyJsonManager {
         jsonParser=new JSONParser();
         this.jsonPath=path;
     }
-
     public JSONArray getReadedJson() {
         try (FileReader reader = new FileReader(jsonPath))
         {
@@ -42,4 +42,20 @@ public class MyJsonManager {
             e.printStackTrace();
         }
     }
+    public void removeObject(JSONObject jsobj) {
+        jsonArray.remove(jsobj);
+        this.updateJson();
+
+    }
+    public JSONObject addJsonObject(String path, String name, String creation_date, String modification_date) {
+        JSONObject jsonobj = new JSONObject();
+        jsonobj.put("path", path);
+        jsonobj.put("name", name);
+        jsonobj.put("creation_date", creation_date);
+        jsonobj.put("modification_date", modification_date);
+        jsonArray.add(jsonobj);
+        updateJson();
+        return jsonobj;
+    }
+
 }

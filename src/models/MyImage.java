@@ -1,6 +1,7 @@
 package src.models;
 
 import org.json.simple.JSONObject;
+import src.gui.MainAppButton;
 import src.helper.Constants;
 
 import java.time.LocalDateTime;
@@ -12,6 +13,7 @@ public class MyImage {
     private String modification_date;
     private JSONObject img_json;
     private MyJsonManager jsonMan;
+    private MainAppButton btn=null;
 
     public MyImage(String path, String name, String creation_date, String modification_date, JSONObject img_json, MyJsonManager jsonMan) {
         this.path=path;
@@ -38,7 +40,17 @@ public class MyImage {
     private void setValueToJson(String key, String value) {
         this.img_json.put(key,value);
         jsonMan.updateJson();
-        // System.out.println(key + ":" + value);
+        System.out.println(key + ":" + value);
+    }
+    public void deleteImage() {
+        jsonMan.removeObject(this.img_json);
+        jsonMan.updateJson();
+    }
+    public void setImageButton(MainAppButton btn) {
+        this.btn=btn;
+    }
+    public MainAppButton getImageButton() {
+        return btn;
     }
 
 }
