@@ -1,6 +1,8 @@
 package src.helper;
 
+import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionListener;
 import java.time.format.DateTimeFormatter;
 
 public final class Constants {
@@ -19,9 +21,38 @@ public final class Constants {
     public static final String BACK_IMAGE = "src/assets/back.png";
     public static final String PREVIOUS_IMAGE = "src/assets/previous.png";
     public static final String NEXT_IMAGE = "src/assets/next.png";
+    public static final String TRASH_IMAGE = "src/assets/delete.png";
+    public static final String ADD_PIC_IMAGE = "src/assets/add-image.png";
+    public static final String TAKE_PIC_IMAGE = "src/assets/take-pic.png";
+
     public static final Color FONT_COLOR = Color.WHITE;
     public static final Color TOP_PANEL_COLOR = Color.BLACK;
     public static final DateTimeFormatter CLOCK_DATETIME_FORMATTER = DateTimeFormatter.ofPattern("dd/MM/yyy HH:mm:ss");
     public static final DateTimeFormatter DATETIME_FILE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd_HH-mm");
     private Constants() {}
+
+    public static Dimension getRatioImage(Image img_tmp, int parent_width, int parent_height){
+        int width_final = 0;
+        int height_final = 0;
+        int width = img_tmp.getWidth(null);
+        int height = img_tmp.getHeight(null);
+
+        if(height == width) {
+            height_final = parent_width;
+            width_final = parent_width;
+        } else if(height > width){
+            height_final = parent_height;
+            width_final = (height_final * width) / height;
+        } else if(height < width){
+            width_final = parent_width;
+            height_final = (width_final * height) / width;
+        }
+        return new Dimension(width_final,height_final);
+    }
+    public static void removeAllActionInButton(JButton btn) {
+        for(ActionListener al: btn.getActionListeners() ) {
+            btn.removeActionListener(al);
+        }
+    }
+
 }
