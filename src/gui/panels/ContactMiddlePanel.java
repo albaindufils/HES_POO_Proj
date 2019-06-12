@@ -114,20 +114,15 @@ public class ContactMiddlePanel extends MyPanel {
             ArrayList<Contact> arr = new ArrayList<>();
             String txt = ((JTextField)e.getSource()).getText().toUpperCase();
             System.out.println("======================================");
-            // contactsPanel.removeAll();
+            contactsPanel.removeAll();
 
             for(Contact c: ctct_list.getArrayList()) {
-                if (!(c.getLastName() + " " +c.getFirstName()).toUpperCase().contains(txt)) {
+                if ((c.getLastName() + " " +c.getFirstName()).toUpperCase().contains(txt)) {
                     // System.out.println(c);
-                    c.getOneContactPanel().setVisible(false);
+                    contactsPanel.add(c.getOneContactPanel());
                     // addContactToPanel(c);
-                } else {
-                    c.getOneContactPanel().setVisible(true);
                 }
             }
-            contactsPanel.repaint();
-            contactsPanel.revalidate();
-            // System.out.println("======================================");
         }
     }
 }

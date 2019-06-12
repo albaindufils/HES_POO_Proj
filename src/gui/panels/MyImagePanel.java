@@ -50,6 +50,7 @@ public class MyImagePanel extends JPanel {
         lbl_creation_date.setText("Creation date: " + currImage.getCreation_date());
         lbl_modification_date.setText("Modification date: " + currImage.getModification_date());
     }
+
     public void setCurrImage(MyImage img) {
         currImage = img;
         image.setImage(Constants.IMAGES_DATA_PATH + currImage.getPath());
