@@ -1,7 +1,8 @@
 package src.models;
 
-public class Contact {
-    private int contactId;
+import javax.swing.*;
+
+public class Contact implements Comparable< Contact > {
     private String firstName;
     private String lastName;
     private String companyName;
@@ -9,10 +10,11 @@ public class Contact {
     private String address;
     private String dateOfBirth;
     private String emailAddress;
+    private String city;
+    private JPanel pan=null;
 
-    private Contact(int contactId, String firstName, String lastName, String companyName, String phoneNumber, String address, String dateOfBirth, String emailAddress) {
-
-        this.contactId = contactId;
+    public Contact( String firstName, String lastName, String companyName, String phoneNumber,
+                     String address, String city, /*String zipcode,*/ String dateOfBirth, String emailAddress) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.companyName = companyName;
@@ -20,31 +22,29 @@ public class Contact {
         this.address = address;
         this.dateOfBirth = dateOfBirth;
         this.emailAddress = emailAddress;
+        this.city = city;
 
     }
 
-    public int getContactId() {
-        return contactId;
-    }
-    String getFirstName() {
+    public String getFirstName() {
         return firstName;
     }
-    String getLastName() {
+    public String getLastName() {
         return lastName;
     }
-    String getCompanyName() {
+    public String getCompanyName() {
         return companyName;
     }
-    String getPhoneNumber() {
+    public String getPhoneNumber() {
         return phoneNumber;
     }
-    String getAddress() {
+    public String getAddress() {
         return address;
     }
-    String getDateOfBirth() {
+    public String getDateOfBirth() {
         return dateOfBirth;
     }
-    String getEmailAddress() {
+    public String getEmailAddress() {
         return emailAddress;
     }
     public void setFirstName(String firstName) {
@@ -68,4 +68,25 @@ public class Contact {
     public void setEmailAddress(String emailAddress) {
         this.emailAddress = emailAddress;
     }
+    public JPanel getOneContactPanel(){ return pan; }
+    public void setOneContactPanel(JPanel pan){ this.pan=pan; }
+    @Override
+    public int compareTo(Contact o) {
+        return this.getLastName().compareTo(o.getLastName());
+    }
+    @Override
+    public String toString() {
+        return "[lastname=" + lastName + ",firstName="+firstName+"]";
+    }
+/*
+    @Override
+    public int compareTo(Contact comparestu) {
+        int compareage=((Contact)comparestu).get();
+        *//* For Ascending order*//*
+        return this.studentage-compareage;
+
+        *//* For Descending order do like this *//*
+        //return compareage-this.studentage;
+    }*/
+
 }

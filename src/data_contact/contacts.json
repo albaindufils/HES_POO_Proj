@@ -5,10 +5,10 @@
     "companyName": "Toyota",
     "phoneNumber": "+41 79 243 1294",
     "address": "Hasenbuhlstrasse 68",
-    "ZIP": 1102,
-    "City": "Bonaduz",
-    "dateOfBirth": "24,06,1990",
-    "emailAddress": "Glover.Charlotte@company.com"
+    "zipcode": 1102,
+    "city": "Bonaduz",
+    "emailAddress": "Glover.Charlotte@company.com",
+    "dateOfBirth": "10.10.1961"
   },
   {
     "firstName": "Goodman",
@@ -16,10 +16,10 @@
     "companyName": "Samsung",
     "phoneNumber": "+41 79 266 9798",
     "address": "Postfach 138",
-    "ZIP": 1903,
-    "City": "Allmend",
-    "dateOfBirth": "13,04,1987",
-    "emailAddress": "Goodman.Armando@company.com"
+    "zipcode": 1903,
+    "city": "Allmend",
+    "emailAddress": "Goodman.Armando@company.com",
+    "dateOfBirth": "14.10.1978"
   },
   {
     "firstName": "Robinson",
@@ -27,10 +27,10 @@
     "companyName": "United Health",
     "phoneNumber": "+41 79 250 6830",
     "address": "Im Sandbuel 36",
-    "ZIP": 1864,
-    "City": "Frumsen",
-    "dateOfBirth": "22,03,1992",
-    "emailAddress": "Robinson.Brian@company.com"
+    "zipcode": 1864,
+    "city": "Frumsen",
+    "emailAddress": "Robinson.Brian@company.com",
+    "dateOfBirth": "15.04.1979"
   },
   {
     "firstName": "Morales",
@@ -38,10 +38,10 @@
     "companyName": "AXA",
     "phoneNumber": "+41 79 879 5372",
     "address": "uerklisweg 67",
-    "ZIP": 2084,
-    "City": "Brusino Arsizio",
-    "dateOfBirth": "11,01,1996",
-    "emailAddress": "Morales.Lonnie@company.com"
+    "zipcode": 2084,
+    "city": "Brusino Arsizio",
+    "emailAddress": "Morales.Lonnie@company.com",
+    "dateOfBirth": "19.06.1985"
   },
   {
     "firstName": "Palmer",
@@ -49,10 +49,10 @@
     "companyName": "Honda",
     "phoneNumber": "+41 79 686 6628",
     "address": "Casa Posrclas 138",
-    "ZIP": 6827,
-    "City": "Eichholz",
-    "dateOfBirth": "30,08,1991",
-    "emailAddress": "Palmer.Shelia@company.com"
+    "zipcode": 6827,
+    "city": "Eichholz",
+    "emailAddress": "Palmer.Shelia@company.com",
+    "dateOfBirth": "22.09.1996"
   },
   {
     "firstName": "Bridges",
@@ -60,10 +60,10 @@
     "companyName": "Glencore",
     "phoneNumber": "+41 79 961 3747",
     "address": "Im Sandbuel 76",
-    "ZIP": 1700,
-    "City": "Fribourg",
-    "dateOfBirth": "27,12,1984",
-    "emailAddress": "Bridges.Darrin@company.com"
+    "zipcode": 1700,
+    "city": "Fribourg",
+    "emailAddress": "Bridges.Darrin@company.com",
+    "dateOfBirth": "22.07.1978"
   },
   {
     "firstName": "Cook",
@@ -71,10 +71,10 @@
     "companyName": "Exxon Mobil",
     "phoneNumber": "+41 79 954 2232",
     "address": "Kronwiesenweg 79",
-    "ZIP": 1920,
-    "City": "La Batiaz",
-    "dateOfBirth": "22,09,2001",
-    "emailAddress": "Cook.Marcella@company.com"
+    "zipcode": 1920,
+    "city": "La Batiaz",
+    "emailAddress": "Cook.Marcella@company.com",
+    "dateOfBirth": "27.03.1987"
   },
   {
     "firstName": "Weber",
@@ -82,10 +82,10 @@
     "companyName": "CVS Health",
     "phoneNumber": "+41 79 716 1550",
     "address": "Betburweg 86",
-    "ZIP": 1027,
-    "City": "Lonay",
-    "dateOfBirth": "24,07,1982",
-    "emailAddress": "Weber.Stephen@company.com"
+    "zipcode": 1027,
+    "city": "Lonay",
+    "emailAddress": "Weber.Stephen@company.com",
+    "dateOfBirth": "09.01.2002"
   },
   {
     "firstName": "Evans",
@@ -93,10 +93,10 @@
     "companyName": "McKesson",
     "phoneNumber": "+41 79 730 0832",
     "address": "Gerbiweg 94",
-    "ZIP": 8586,
-    "City": "Buchackern",
-    "dateOfBirth": "01,10,1998",
-    "emailAddress": "Evans.Anne@company.com"
+    "zipcode": 8586,
+    "city": "Buchackern",
+    "emailAddress": "Evans.Anne@company.com",
+    "dateOfBirth": "16.03.1981"
   },
   {
     "firstName": "Simon",
@@ -104,10 +104,10 @@
     "companyName": "Amazon",
     "phoneNumber": "+41 79 218 6573",
     "address": "Hasenbuhlstrasse 68",
-    "ZIP": 1102,
-    "City": "Bonaduz",
-    "dateOfBirth": "24,06,1990",
-    "emailAddress": "Simon.Ricardo@company.com"
+    "zipcode": 1102,
+    "city": "Bonaduz",
+    "emailAddress": "Simon.Ricardo@company.com",
+    "dateOfBirth": "11.07.1982"
   },
   {
     "firstName": "Joseph",
@@ -115,10 +115,10 @@
     "companyName": "General Motors",
     "phoneNumber": "+41 79 273 0303",
     "address": "Postfach 138",
-    "ZIP": 1903,
-    "City": "Allmend",
-    "dateOfBirth": "13,04,1987",
-    "emailAddress": "Joseph.Myrtle@company.com"
+    "zipcode": 1903,
+    "city": "Allmend",
+    "emailAddress": "Joseph.Myrtle@company.com",
+    "dateOfBirth": "07.01.1998"
   },
   {
     "firstName": "Hicks",
@@ -126,10 +126,10 @@
     "companyName": "General Electric",
     "phoneNumber": "+41 79 982 2763",
     "address": "Im Sandbuel 36",
-    "ZIP": 1864,
-    "City": "Frumsen",
-    "dateOfBirth": "22,03,1992",
-    "emailAddress": "Hicks.Wesley@company.com"
+    "zipcode": 1864,
+    "city": "Frumsen",
+    "emailAddress": "Hicks.Wesley@company.com",
+    "dateOfBirth": "25.03.1982"
   },
   {
     "firstName": "Lowe",
@@ -137,10 +137,10 @@
     "companyName": "BNP Paribas",
     "phoneNumber": "+41 79 850 6708",
     "address": "uerklisweg 67",
-    "ZIP": 2084,
-    "City": "Brusino Arsizio",
-    "dateOfBirth": "11,01,1996",
-    "emailAddress": "Lowe.Shane@company.com"
+    "zipcode": 2084,
+    "city": "Brusino Arsizio",
+    "emailAddress": "Lowe.Shane@company.com",
+    "dateOfBirth": "15.09.2004"
   },
   {
     "firstName": "Hammond",
@@ -148,10 +148,10 @@
     "companyName": "Daimler",
     "phoneNumber": "+41 79 862 3556",
     "address": "Im Sandbuel 76",
-    "ZIP": 1700,
-    "City": "Fribourg",
-    "dateOfBirth": "27,12,1984",
-    "emailAddress": "Hammond.Eleanor@company.com"
+    "zipcode": 1700,
+    "city": "Fribourg",
+    "emailAddress": "Hammond.Eleanor@company.com",
+    "dateOfBirth": "19.11.1990"
   },
   {
     "firstName": "Dawson",
@@ -159,10 +159,10 @@
     "companyName": "Royal Dutch Shell",
     "phoneNumber": "+41 79 438 6463",
     "address": "Kronwiesenweg 79",
-    "ZIP": 1920,
-    "City": "La Batiaz",
-    "dateOfBirth": "22,09,2001",
-    "emailAddress": "Dawson.Sam@company.com"
+    "zipcode": 1920,
+    "city": "La Batiaz",
+    "emailAddress": "Dawson.Sam@company.com",
+    "dateOfBirth": "30.11.1977"
   },
   {
     "firstName": "Stone",
@@ -170,10 +170,10 @@
     "companyName": "Tata Group",
     "phoneNumber": "+41 79 882 7783",
     "address": "Betburweg 86",
-    "ZIP": 1027,
-    "City": "Lonay",
-    "dateOfBirth": "24,07,1982",
-    "emailAddress": "Stone.Otis@company.com"
+    "zipcode": 1027,
+    "city": "Lonay",
+    "emailAddress": "Stone.Otis@company.com",
+    "dateOfBirth": "05.02.1971"
   },
   {
     "firstName": "Norton",
@@ -181,10 +181,10 @@
     "companyName": "China State Construction",
     "phoneNumber": "+41 79 455 0552",
     "address": "Gerbiweg 94",
-    "ZIP": 8586,
-    "City": "Buchackern",
-    "dateOfBirth": "01,10,1998",
-    "emailAddress": "Norton.Ida@company.com"
+    "zipcode": 8586,
+    "city": "Buchackern",
+    "emailAddress": "Norton.Ida@company.com",
+    "dateOfBirth": "02.10.1975"
   },
   {
     "firstName": "Sanchez",
@@ -192,10 +192,10 @@
     "companyName": "Bank of China",
     "phoneNumber": "+41 79 868 0545",
     "address": "Hasenbuhlstrasse 68",
-    "ZIP": 1102,
-    "City": "Bonaduz",
-    "dateOfBirth": "24,06,1990",
-    "emailAddress": "Sanchez.Noah@company.com"
+    "zipcode": 1102,
+    "city": "Bonaduz",
+    "emailAddress": "Sanchez.Noah@company.com",
+    "dateOfBirth": "07.07.1963"
   },
   {
     "firstName": "Pearson",
@@ -203,10 +203,10 @@
     "companyName": "Walgreens Boots Alliance",
     "phoneNumber": "+41 79 954 7823",
     "address": "Postfach 138",
-    "ZIP": 1903,
-    "City": "Allmend",
-    "dateOfBirth": "13,04,1987",
-    "emailAddress": "Pearson.Margaret@company.com"
+    "zipcode": 1903,
+    "city": "Allmend",
+    "emailAddress": "Pearson.Margaret@company.com",
+    "dateOfBirth": "20.03.1998"
   },
   {
     "firstName": "Alvarez",
@@ -214,10 +214,10 @@
     "companyName": "Cardinal Health",
     "phoneNumber": "+41 79 796 3287",
     "address": "Postfach 138",
-    "ZIP": 1903,
-    "City": "Allmend",
-    "dateOfBirth": "13,04,1987",
-    "emailAddress": "Alvarez.Erica@company.com"
+    "zipcode": 1903,
+    "city": "Allmend",
+    "emailAddress": "Alvarez.Erica@company.com",
+    "dateOfBirth": "16.12.1970"
   },
   {
     "firstName": "Sherman",
@@ -225,10 +225,10 @@
     "companyName": "General Motors",
     "phoneNumber": "+41 79 346 4875",
     "address": "Im Sandbuel 36",
-    "ZIP": 1864,
-    "City": "Frumsen",
-    "dateOfBirth": "22,03,1992",
-    "emailAddress": "Sherman.Desiree@company.com"
+    "zipcode": 1864,
+    "city": "Frumsen",
+    "emailAddress": "Sherman.Desiree@company.com",
+    "dateOfBirth": "06.02.1991"
   },
   {
     "firstName": "Stanley",
@@ -236,10 +236,10 @@
     "companyName": "General Electric",
     "phoneNumber": "+41 79 849 7700",
     "address": "uerklisweg 67",
-    "ZIP": 2084,
-    "City": "Brusino Arsizio",
-    "dateOfBirth": "11,01,1996",
-    "emailAddress": "Stanley.Penny@company.com"
+    "zipcode": 2084,
+    "city": "Brusino Arsizio",
+    "emailAddress": "Stanley.Penny@company.com",
+    "dateOfBirth": "19.01.1991"
   },
   {
     "firstName": "Banks",
@@ -247,10 +247,10 @@
     "companyName": "BNP Paribas",
     "phoneNumber": "+41 79 404 4524",
     "address": "Hasenbuhlstrasse 68",
-    "ZIP": 1102,
-    "City": "Bonaduz",
-    "dateOfBirth": "24,06,1990",
-    "emailAddress": "Banks.Rodolfo@company.com"
+    "zipcode": 1102,
+    "city": "Bonaduz",
+    "emailAddress": "Banks.Rodolfo@company.com",
+    "dateOfBirth": "12.10.1964"
   },
   {
     "firstName": "Gardner",
@@ -258,10 +258,10 @@
     "companyName": "Daimler",
     "phoneNumber": "+41 79 987 5198",
     "address": "Postfach 138",
-    "ZIP": 1903,
-    "City": "Allmend",
-    "dateOfBirth": "13,04,1987",
-    "emailAddress": "Gardner.Luis@company.com"
+    "zipcode": 1903,
+    "city": "Allmend",
+    "emailAddress": "Gardner.Luis@company.com",
+    "dateOfBirth": "25.12.2002"
   },
   {
     "firstName": "Tyler",
@@ -269,10 +269,10 @@
     "companyName": "Royal Dutch Shell",
     "phoneNumber": "+41 79 600 0012",
     "address": "Im Sandbuel 36",
-    "ZIP": 1864,
-    "City": "Frumsen",
-    "dateOfBirth": "22,03,1992",
-    "emailAddress": "Tyler.Rogelio@company.com"
+    "zipcode": 1864,
+    "city": "Frumsen",
+    "emailAddress": "Tyler.Rogelio@company.com",
+    "dateOfBirth": "27.03.1998"
   },
   {
     "firstName": "Horton",
@@ -280,10 +280,10 @@
     "companyName": "Tata Group",
     "phoneNumber": "+41 79 429 2987",
     "address": "uerklisweg 67",
-    "ZIP": 2084,
-    "City": "Brusino Arsizio",
-    "dateOfBirth": "11,01,1996",
-    "emailAddress": "Horton.Juanita@company.com"
+    "zipcode": 2084,
+    "city": "Brusino Arsizio",
+    "emailAddress": "Horton.Juanita@company.com",
+    "dateOfBirth": "11.06.1969"
   },
   {
     "firstName": "Stephens",
@@ -291,10 +291,10 @@
     "companyName": "United Health",
     "phoneNumber": "+41 79 548 7433",
     "address": "Casa Posrclas 138",
-    "ZIP": 6827,
-    "City": "Eichholz",
-    "dateOfBirth": "30,08,1991",
-    "emailAddress": "Stephens.Rene@company.com"
+    "zipcode": 6827,
+    "city": "Eichholz",
+    "emailAddress": "Stephens.Rene@company.com",
+    "dateOfBirth": "29.04.2001"
   },
   {
     "firstName": "Kim",
@@ -302,10 +302,10 @@
     "companyName": "AXA",
     "phoneNumber": "+41 79 692 5440",
     "address": "Im Sandbuel 76",
-    "ZIP": 1700,
-    "City": "Fribourg",
-    "dateOfBirth": "27,12,1984",
-    "emailAddress": "Kim.Minnie@company.com"
+    "zipcode": 1700,
+    "city": "Fribourg",
+    "emailAddress": "Kim.Minnie@company.com",
+    "dateOfBirth": "02.01.1997"
   },
   {
     "firstName": "Becker",
@@ -313,10 +313,10 @@
     "companyName": "Honda",
     "phoneNumber": "+41 79 511 1422",
     "address": "Kronwiesenweg 79",
-    "ZIP": 1920,
-    "City": "La Batiaz",
-    "dateOfBirth": "22,09,2001",
-    "emailAddress": "Becker.Kim@company.com"
+    "zipcode": 1920,
+    "city": "La Batiaz",
+    "emailAddress": "Becker.Kim@company.com",
+    "dateOfBirth": "04.11.1969"
   },
   {
     "firstName": "Martinez",
@@ -324,10 +324,10 @@
     "companyName": "Glencore",
     "phoneNumber": "+41 79 644 8337",
     "address": "Betburweg 86",
-    "ZIP": 1027,
-    "City": "Lonay",
-    "dateOfBirth": "24,07,1982",
-    "emailAddress": "Martinez.Garry@company.com"
+    "zipcode": 1027,
+    "city": "Lonay",
+    "emailAddress": "Martinez.Garry@company.com",
+    "dateOfBirth": "12.06.1976"
   },
   {
     "firstName": "Bush",
@@ -335,10 +335,10 @@
     "companyName": "Exxon Mobil",
     "phoneNumber": "+41 79 848 6654",
     "address": "Gerbiweg 94",
-    "ZIP": 8586,
-    "City": "Buchackern",
-    "dateOfBirth": "01,10,1998",
-    "emailAddress": "Bush.Eunice@company.com"
+    "zipcode": 8586,
+    "city": "Buchackern",
+    "emailAddress": "Bush.Eunice@company.com",
+    "dateOfBirth": "02.01.1978"
   },
   {
     "firstName": "Coleman",
@@ -346,10 +346,10 @@
     "companyName": "CVS Health",
     "phoneNumber": "+41 79 765 8164",
     "address": "Hasenbuhlstrasse 68",
-    "ZIP": 1102,
-    "City": "Bonaduz",
-    "dateOfBirth": "24,06,1990",
-    "emailAddress": "Coleman.Adrienne@company.com"
+    "zipcode": 1102,
+    "city": "Bonaduz",
+    "emailAddress": "Coleman.Adrienne@company.com",
+    "dateOfBirth": "08.04.1969"
   },
   {
     "firstName": "Hill",
@@ -357,10 +357,10 @@
     "companyName": "Cardinal Health",
     "phoneNumber": "+41 79 952 8713",
     "address": "Postfach 138",
-    "ZIP": 1903,
-    "City": "Allmend",
-    "dateOfBirth": "13,04,1987",
-    "emailAddress": "Hill.Rosa@company.com"
+    "zipcode": 1903,
+    "city": "Allmend",
+    "emailAddress": "Hill.Rosa@company.com",
+    "dateOfBirth": "22.02.1965"
   },
   {
     "firstName": "George",
@@ -368,10 +368,10 @@
     "companyName": "General Motors",
     "phoneNumber": "+41 79 513 6518",
     "address": "Im Sandbuel 36",
-    "ZIP": 1864,
-    "City": "Frumsen",
-    "dateOfBirth": "22,03,1992",
-    "emailAddress": "George.Carmen@company.com"
+    "zipcode": 1864,
+    "city": "Frumsen",
+    "emailAddress": "George.Carmen@company.com",
+    "dateOfBirth": "22.08.1965"
   },
   {
     "firstName": "Lawrence",
@@ -379,10 +379,10 @@
     "companyName": "General Electric",
     "phoneNumber": "+41 79 475 2190",
     "address": "uerklisweg 67",
-    "ZIP": 2084,
-    "City": "Brusino Arsizio",
-    "dateOfBirth": "11,01,1996",
-    "emailAddress": "Lawrence.Inez@company.com"
+    "zipcode": 2084,
+    "city": "Brusino Arsizio",
+    "emailAddress": "Lawrence.Inez@company.com",
+    "dateOfBirth": "09.11.1993"
   },
   {
     "firstName": "Mckinney",
@@ -390,10 +390,10 @@
     "companyName": "BNP Paribas",
     "phoneNumber": "+41 79 548 2761",
     "address": "Im Sandbuel 76",
-    "ZIP": 1700,
-    "City": "Fribourg",
-    "dateOfBirth": "27,12,1984",
-    "emailAddress": "Mckinney.Susie@company.com"
+    "zipcode": 1700,
+    "city": "Fribourg",
+    "emailAddress": "Mckinney.Susie@company.com",
+    "dateOfBirth": "05.10.1976"
   },
   {
     "firstName": "Keller",
@@ -401,10 +401,10 @@
     "companyName": "Daimler",
     "phoneNumber": "+41 79 620 5584",
     "address": "Kronwiesenweg 79",
-    "ZIP": 1920,
-    "City": "La Batiaz",
-    "dateOfBirth": "22,09,2001",
-    "emailAddress": "Keller.Doug@company.com"
+    "zipcode": 1920,
+    "city": "La Batiaz",
+    "emailAddress": "Keller.Doug@company.com",
+    "dateOfBirth": "26.11.1966"
   },
   {
     "firstName": "Hardy",
@@ -412,10 +412,10 @@
     "companyName": "Royal Dutch Shell",
     "phoneNumber": "+41 79 419 4184",
     "address": "Betburweg 86",
-    "ZIP": 1027,
-    "City": "Lonay",
-    "dateOfBirth": "24,07,1982",
-    "emailAddress": "Hardy.Tim@company.com"
+    "zipcode": 1027,
+    "city": "Lonay",
+    "emailAddress": "Hardy.Tim@company.com",
+    "dateOfBirth": "28.12.1989"
   },
   {
     "firstName": "Jackson",
@@ -423,10 +423,10 @@
     "companyName": "Tata Group",
     "phoneNumber": "+41 79 307 7940",
     "address": "Gerbiweg 94",
-    "ZIP": 8586,
-    "City": "Buchackern",
-    "dateOfBirth": "01,10,1998",
-    "emailAddress": "Jackson.Kelly@company.com"
+    "zipcode": 8586,
+    "city": "Buchackern",
+    "emailAddress": "Jackson.Kelly@company.com",
+    "dateOfBirth": "09.05.1969"
   },
   {
     "firstName": "Kelly",
@@ -434,10 +434,10 @@
     "companyName": "United Health",
     "phoneNumber": "+41 79 951 6056",
     "address": "Hasenbuhlstrasse 68",
-    "ZIP": 1102,
-    "City": "Bonaduz",
-    "dateOfBirth": "24,06,1990",
-    "emailAddress": "Kelly.Rick@company.com"
+    "zipcode": 1102,
+    "city": "Bonaduz",
+    "emailAddress": "Kelly.Rick@company.com",
+    "dateOfBirth": "04.01.1998"
   },
   {
     "firstName": "Reyes",
@@ -445,10 +445,10 @@
     "companyName": "AXA",
     "phoneNumber": "+41 79 448 3860",
     "address": "Postfach 138",
-    "ZIP": 1903,
-    "City": "Allmend",
-    "dateOfBirth": "13,04,1987",
-    "emailAddress": "Reyes.Cynthia@company.com"
+    "zipcode": 1903,
+    "city": "Allmend",
+    "emailAddress": "Reyes.Cynthia@company.com",
+    "dateOfBirth": "15.03.1983"
   },
   {
     "firstName": "Washington",
@@ -456,10 +456,10 @@
     "companyName": "Toyota",
     "phoneNumber": "+41 79 248 9818",
     "address": "Postfach 138",
-    "ZIP": 1903,
-    "City": "Allmend",
-    "dateOfBirth": "13,04,1987",
-    "emailAddress": "Washington.Jose@company.com"
+    "zipcode": 1903,
+    "city": "Allmend",
+    "emailAddress": "Washington.Jose@company.com",
+    "dateOfBirth": "30.03.1970"
   },
   {
     "firstName": "Crawford",
@@ -467,10 +467,10 @@
     "companyName": "Samsung",
     "phoneNumber": "+41 79 390 9320",
     "address": "Im Sandbuel 36",
-    "ZIP": 1864,
-    "City": "Frumsen",
-    "dateOfBirth": "22,03,1992",
-    "emailAddress": "Crawford.Kellie@company.com"
+    "zipcode": 1864,
+    "city": "Frumsen",
+    "emailAddress": "Crawford.Kellie@company.com",
+    "dateOfBirth": "17.08.1994"
   },
   {
     "firstName": "Fernandez",
@@ -478,10 +478,10 @@
     "companyName": "United Health",
     "phoneNumber": "+41 79 681 1654",
     "address": "uerklisweg 67",
-    "ZIP": 2084,
-    "City": "Brusino Arsizio",
-    "dateOfBirth": "11,01,1996",
-    "emailAddress": "Fernandez.Violet@company.com"
+    "zipcode": 2084,
+    "city": "Brusino Arsizio",
+    "emailAddress": "Fernandez.Violet@company.com",
+    "dateOfBirth": "14.07.1989"
   },
   {
     "firstName": "Manning",
@@ -489,10 +489,10 @@
     "companyName": "AXA",
     "phoneNumber": "+41 79 448 6908",
     "address": "Gerbiweg 94",
-    "ZIP": 8586,
-    "City": "Buchackern",
-    "dateOfBirth": "01,10,1998",
-    "emailAddress": "Manning.Alison@company.com"
+    "zipcode": 8586,
+    "city": "Buchackern",
+    "emailAddress": "Manning.Alison@company.com",
+    "dateOfBirth": "17.12.1982"
   },
   {
     "firstName": "Vasquez",
@@ -500,10 +500,10 @@
     "companyName": "Honda",
     "phoneNumber": "+41 79 253 8673",
     "address": "Hasenbuhlstrasse 68",
-    "ZIP": 1102,
-    "City": "Bonaduz",
-    "dateOfBirth": "24,06,1990",
-    "emailAddress": "Vasquez.Ken@company.com"
+    "zipcode": 1102,
+    "city": "Bonaduz",
+    "emailAddress": "Vasquez.Ken@company.com",
+    "dateOfBirth": "01.07.1968"
   },
   {
     "firstName": "Zimmerman",
@@ -511,10 +511,10 @@
     "companyName": "Glencore",
     "phoneNumber": "+41 79 770 2886",
     "address": "Postfach 138",
-    "ZIP": 1903,
-    "City": "Allmend",
-    "dateOfBirth": "13,04,1987",
-    "emailAddress": "Zimmerman.Crystal@company.com"
+    "zipcode": 1903,
+    "city": "Allmend",
+    "emailAddress": "Zimmerman.Crystal@company.com",
+    "dateOfBirth": "26.10.2005"
   },
   {
     "firstName": "Myers",
@@ -522,10 +522,10 @@
     "companyName": "Exxon Mobil",
     "phoneNumber": "+41 79 947 1123",
     "address": "Im Sandbuel 36",
-    "ZIP": 1864,
-    "City": "Frumsen",
-    "dateOfBirth": "22,03,1992",
-    "emailAddress": "Myers.Alexandra@company.com"
+    "zipcode": 1864,
+    "city": "Frumsen",
+    "emailAddress": "Myers.Alexandra@company.com",
+    "dateOfBirth": "08.10.1989"
   },
   {
     "firstName": "Snyder",
@@ -533,10 +533,10 @@
     "companyName": "CVS Health",
     "phoneNumber": "+41 79 818 2088",
     "address": "uerklisweg 67",
-    "ZIP": 2084,
-    "City": "Brusino Arsizio",
-    "dateOfBirth": "11,01,1996",
-    "emailAddress": "Snyder.Sharon@company.com"
+    "zipcode": 2084,
+    "city": "Brusino Arsizio",
+    "emailAddress": "Snyder.Sharon@company.com",
+    "dateOfBirth": "02.09.2005"
   },
   {
     "firstName": "Page",
@@ -544,10 +544,10 @@
     "companyName": "McKesson",
     "phoneNumber": "+41 79 541 4201",
     "address": "Im Sandbuel 76",
-    "ZIP": 1700,
-    "City": "Fribourg",
-    "dateOfBirth": "27,12,1984",
-    "emailAddress": "Page.Patrick@company.com"
+    "zipcode": 1700,
+    "city": "Fribourg",
+    "emailAddress": "Page.Patrick@company.com",
+    "dateOfBirth": "05.10.2004"
   },
   {
     "firstName": "Edwards",
@@ -555,10 +555,10 @@
     "companyName": "Amazon",
     "phoneNumber": "+41 79 273 9148",
     "address": "Kronwiesenweg 79",
-    "ZIP": 1920,
-    "City": "La Batiaz",
-    "dateOfBirth": "22,09,2001",
-    "emailAddress": "Edwards.Constance@company.com"
+    "zipcode": 1920,
+    "city": "La Batiaz",
+    "emailAddress": "Edwards.Constance@company.com",
+    "dateOfBirth": "23.08.1982"
   },
   {
     "firstName": "Robertson",
@@ -566,10 +566,10 @@
     "companyName": "General Motors",
     "phoneNumber": "+41 79 827 9333",
     "address": "Betburweg 86",
-    "ZIP": 1027,
-    "City": "Lonay",
-    "dateOfBirth": "24,07,1982",
-    "emailAddress": "Robertson.Jeremiah@company.com"
+    "zipcode": 1027,
+    "city": "Lonay",
+    "emailAddress": "Robertson.Jeremiah@company.com",
+    "dateOfBirth": "21.02.2000"
   },
   {
     "firstName": "Ford",
@@ -577,10 +577,10 @@
     "companyName": "General Electric",
     "phoneNumber": "+41 79 742 9440",
     "address": "Gerbiweg 94",
-    "ZIP": 8586,
-    "City": "Buchackern",
-    "dateOfBirth": "01,10,1998",
-    "emailAddress": "Ford.Tommie@company.com"
+    "zipcode": 8586,
+    "city": "Buchackern",
+    "emailAddress": "Ford.Tommie@company.com",
+    "dateOfBirth": "26.01.1978"
   },
   {
     "firstName": "Mccormick",
@@ -588,10 +588,10 @@
     "companyName": "BNP Paribas",
     "phoneNumber": "+41 79 866 6224",
     "address": "Hasenbuhlstrasse 68",
-    "ZIP": 1102,
-    "City": "Bonaduz",
-    "dateOfBirth": "24,06,1990",
-    "emailAddress": "Mccormick.Annie@company.com"
+    "zipcode": 1102,
+    "city": "Bonaduz",
+    "emailAddress": "Mccormick.Annie@company.com",
+    "dateOfBirth": "21.02.1988"
   },
   {
     "firstName": "Pittman",
@@ -599,10 +599,10 @@
     "companyName": "Daimler",
     "phoneNumber": "+41 79 328 1655",
     "address": "Postfach 138",
-    "ZIP": 1903,
-    "City": "Allmend",
-    "dateOfBirth": "13,04,1987",
-    "emailAddress": "Pittman.Fred@company.com"
+    "zipcode": 1903,
+    "city": "Allmend",
+    "emailAddress": "Pittman.Fred@company.com",
+    "dateOfBirth": "27.10.1975"
   },
   {
     "firstName": "Payne",
@@ -610,10 +610,10 @@
     "companyName": "Royal Dutch Shell",
     "phoneNumber": "+41 79 792 1976",
     "address": "Postfach 138",
-    "ZIP": 1903,
-    "City": "Allmend",
-    "dateOfBirth": "13,04,1987",
-    "emailAddress": "Payne.Martha@company.com"
+    "zipcode": 1903,
+    "city": "Allmend",
+    "emailAddress": "Payne.Martha@company.com",
+    "dateOfBirth": "23.04.1961"
   },
   {
     "firstName": "Schwartz",
@@ -621,10 +621,10 @@
     "companyName": "Tata Group",
     "phoneNumber": "+41 79 332 5145",
     "address": "Im Sandbuel 36",
-    "ZIP": 1864,
-    "City": "Frumsen",
-    "dateOfBirth": "22,03,1992",
-    "emailAddress": "Schwartz.Felicia@company.com"
+    "zipcode": 1864,
+    "city": "Frumsen",
+    "emailAddress": "Schwartz.Felicia@company.com",
+    "dateOfBirth": "31.10.1989"
   },
   {
     "firstName": "Peterson",
@@ -632,10 +632,10 @@
     "companyName": "China State Construction",
     "phoneNumber": "+41 79 854 4295",
     "address": "uerklisweg 67",
-    "ZIP": 2084,
-    "City": "Brusino Arsizio",
-    "dateOfBirth": "11,01,1996",
-    "emailAddress": "Peterson.Katherine@company.com"
+    "zipcode": 2084,
+    "city": "Brusino Arsizio",
+    "emailAddress": "Peterson.Katherine@company.com",
+    "dateOfBirth": "09.07.1964"
   },
   {
     "firstName": "Warren",
@@ -643,10 +643,10 @@
     "companyName": "Bank of China",
     "phoneNumber": "+41 79 594 4700",
     "address": "Hasenbuhlstrasse 68",
-    "ZIP": 1102,
-    "City": "Bonaduz",
-    "dateOfBirth": "24,06,1990",
-    "emailAddress": "Warren.Florence@company.com"
+    "zipcode": 1102,
+    "city": "Bonaduz",
+    "emailAddress": "Warren.Florence@company.com",
+    "dateOfBirth": "20.04.1986"
   },
   {
     "firstName": "Copeland",
@@ -654,10 +654,10 @@
     "companyName": "Walgreens Boots Alliance",
     "phoneNumber": "+41 79 447 5247",
     "address": "Postfach 138",
-    "ZIP": 1903,
-    "City": "Allmend",
-    "dateOfBirth": "13,04,1987",
-    "emailAddress": "Copeland.Alvin@company.com"
+    "zipcode": 1903,
+    "city": "Allmend",
+    "emailAddress": "Copeland.Alvin@company.com",
+    "dateOfBirth": "26.08.1985"
   },
   {
     "firstName": "Dunn",
@@ -665,10 +665,10 @@
     "companyName": "Cardinal Health",
     "phoneNumber": "+41 79 636 7620",
     "address": "Im Sandbuel 36",
-    "ZIP": 1864,
-    "City": "Frumsen",
-    "dateOfBirth": "22,03,1992",
-    "emailAddress": "Dunn.Cindy@company.com"
+    "zipcode": 1864,
+    "city": "Frumsen",
+    "emailAddress": "Dunn.Cindy@company.com",
+    "dateOfBirth": "19.11.1966"
   },
   {
     "firstName": "Wallace",
@@ -676,10 +676,10 @@
     "companyName": "General Motors",
     "phoneNumber": "+41 79 357 9784",
     "address": "uerklisweg 67",
-    "ZIP": 2084,
-    "City": "Brusino Arsizio",
-    "dateOfBirth": "11,01,1996",
-    "emailAddress": "Wallace.Shelley@company.com"
+    "zipcode": 2084,
+    "city": "Brusino Arsizio",
+    "emailAddress": "Wallace.Shelley@company.com",
+    "dateOfBirth": "27.09.1965"
   },
   {
     "firstName": "Floyd",
@@ -687,10 +687,10 @@
     "companyName": "General Electric",
     "phoneNumber": "+41 79 715 8741",
     "address": "Casa Posrclas 138",
-    "ZIP": 6827,
-    "City": "Eichholz",
-    "dateOfBirth": "30,08,1991",
-    "emailAddress": "Floyd.Ronnie@company.com"
+    "zipcode": 6827,
+    "city": "Eichholz",
+    "emailAddress": "Floyd.Ronnie@company.com",
+    "dateOfBirth": "14.02.1981"
   },
   {
     "firstName": "Flowers",
@@ -698,10 +698,10 @@
     "companyName": "BNP Paribas",
     "phoneNumber": "+41 79 897 0527",
     "address": "Im Sandbuel 76",
-    "ZIP": 1700,
-    "City": "Fribourg",
-    "dateOfBirth": "27,12,1984",
-    "emailAddress": "Flowers.Nick@company.com"
+    "zipcode": 1700,
+    "city": "Fribourg",
+    "emailAddress": "Flowers.Nick@company.com",
+    "dateOfBirth": "24.01.1977"
   },
   {
     "firstName": "Ryan",
@@ -709,10 +709,10 @@
     "companyName": "Daimler",
     "phoneNumber": "+41 79 681 3086",
     "address": "Kronwiesenweg 79",
-    "ZIP": 1920,
-    "City": "La Batiaz",
-    "dateOfBirth": "22,09,2001",
-    "emailAddress": "Ryan.Leon@company.com"
+    "zipcode": 1920,
+    "city": "La Batiaz",
+    "emailAddress": "Ryan.Leon@company.com",
+    "dateOfBirth": "04.10.1975"
   },
   {
     "firstName": "Thomas",
@@ -720,10 +720,10 @@
     "companyName": "Royal Dutch Shell",
     "phoneNumber": "+41 79 294 5943",
     "address": "Betburweg 86",
-    "ZIP": 1027,
-    "City": "Lonay",
-    "dateOfBirth": "24,07,1982",
-    "emailAddress": "Thomas.Molly@company.com"
+    "zipcode": 1027,
+    "city": "Lonay",
+    "emailAddress": "Thomas.Molly@company.com",
+    "dateOfBirth": "22.06.1986"
   },
   {
     "firstName": "Brock",
@@ -731,10 +731,10 @@
     "companyName": "Tata Group",
     "phoneNumber": "+41 79 825 8427",
     "address": "Postfach 138",
-    "ZIP": 1903,
-    "City": "Allmend",
-    "dateOfBirth": "13,04,1987",
-    "emailAddress": "Brock.Vickie@company.com"
+    "zipcode": 1903,
+    "city": "Allmend",
+    "emailAddress": "Brock.Vickie@company.com",
+    "dateOfBirth": "17.02.1999"
   },
   {
     "firstName": "Jensen",
@@ -742,10 +742,10 @@
     "companyName": "United Health",
     "phoneNumber": "+41 79 661 1663",
     "address": "Im Sandbuel 36",
-    "ZIP": 1864,
-    "City": "Frumsen",
-    "dateOfBirth": "22,03,1992",
-    "emailAddress": "Jensen.Celia@company.com"
+    "zipcode": 1864,
+    "city": "Frumsen",
+    "emailAddress": "Jensen.Celia@company.com",
+    "dateOfBirth": "07.09.1969"
   },
   {
     "firstName": "Mason",
@@ -753,10 +753,10 @@
     "companyName": "AXA",
     "phoneNumber": "+41 79 663 3840",
     "address": "uerklisweg 67",
-    "ZIP": 2084,
-    "City": "Brusino Arsizio",
-    "dateOfBirth": "11,01,1996",
-    "emailAddress": "Mason.Mae@company.com"
+    "zipcode": 2084,
+    "city": "Brusino Arsizio",
+    "emailAddress": "Mason.Mae@company.com",
+    "dateOfBirth": "21.11.1985"
   },
   {
     "firstName": "Griffith",
@@ -764,10 +764,10 @@
     "companyName": "Honda",
     "phoneNumber": "+41 79 654 5735",
     "address": "Casa Posrclas 138",
-    "ZIP": 6827,
-    "City": "Eichholz",
-    "dateOfBirth": "30,08,1991",
-    "emailAddress": "Griffith.Timothy@company.com"
+    "zipcode": 6827,
+    "city": "Eichholz",
+    "emailAddress": "Griffith.Timothy@company.com",
+    "dateOfBirth": "07.09.1976"
   },
   {
     "firstName": "Doyle",
@@ -775,10 +775,10 @@
     "companyName": "Glencore",
     "phoneNumber": "+41 79 520 6452",
     "address": "Im Sandbuel 76",
-    "ZIP": 1700,
-    "City": "Fribourg",
-    "dateOfBirth": "27,12,1984",
-    "emailAddress": "Doyle.June@company.com"
+    "zipcode": 1700,
+    "city": "Fribourg",
+    "emailAddress": "Doyle.June@company.com",
+    "dateOfBirth": "21.01.1980"
   },
   {
     "firstName": "Hayes",
@@ -786,10 +786,10 @@
     "companyName": "Exxon Mobil",
     "phoneNumber": "+41 79 505 8704",
     "address": "Kronwiesenweg 79",
-    "ZIP": 1920,
-    "City": "La Batiaz",
-    "dateOfBirth": "22,09,2001",
-    "emailAddress": "Hayes.Marvin@company.com"
+    "zipcode": 1920,
+    "city": "La Batiaz",
+    "emailAddress": "Hayes.Marvin@company.com",
+    "dateOfBirth": "19.08.1999"
   },
   {
     "firstName": "Carlson",
@@ -797,10 +797,10 @@
     "companyName": "CVS Health",
     "phoneNumber": "+41 79 361 9758",
     "address": "Betburweg 86",
-    "ZIP": 1027,
-    "City": "Lonay",
-    "dateOfBirth": "24,07,1982",
-    "emailAddress": "Carlson.Angel@company.com"
+    "zipcode": 1027,
+    "city": "Lonay",
+    "emailAddress": "Carlson.Angel@company.com",
+    "dateOfBirth": "13.12.2000"
   },
   {
     "firstName": "Roberts",
@@ -808,10 +808,10 @@
     "companyName": "Cardinal Health",
     "phoneNumber": "+41 79 461 3811",
     "address": "Gerbiweg 94",
-    "ZIP": 8586,
-    "City": "Buchackern",
-    "dateOfBirth": "01,10,1998",
-    "emailAddress": "Roberts.Stella@company.com"
+    "zipcode": 8586,
+    "city": "Buchackern",
+    "emailAddress": "Roberts.Stella@company.com",
+    "dateOfBirth": "23.04.1984"
   },
   {
     "firstName": "Barrett",
@@ -819,10 +819,10 @@
     "companyName": "General Motors",
     "phoneNumber": "+41 79 478 0659",
     "address": "Hasenbuhlstrasse 68",
-    "ZIP": 1102,
-    "City": "Bonaduz",
-    "dateOfBirth": "24,06,1990",
-    "emailAddress": "Barrett.Kelly@company.com"
+    "zipcode": 1102,
+    "city": "Bonaduz",
+    "emailAddress": "Barrett.Kelly@company.com",
+    "dateOfBirth": "16.11.2000"
   },
   {
     "firstName": "Morris",
@@ -830,10 +830,10 @@
     "companyName": "General Electric",
     "phoneNumber": "+41 79 539 2779",
     "address": "Postfach 138",
-    "ZIP": 1903,
-    "City": "Allmend",
-    "dateOfBirth": "13,04,1987",
-    "emailAddress": "Morris.Melody@company.com"
+    "zipcode": 1903,
+    "city": "Allmend",
+    "emailAddress": "Morris.Melody@company.com",
+    "dateOfBirth": "27.11.2003"
   },
   {
     "firstName": "Harmon",
@@ -841,10 +841,10 @@
     "companyName": "BNP Paribas",
     "phoneNumber": "+41 79 879 9162",
     "address": "Im Sandbuel 36",
-    "ZIP": 1864,
-    "City": "Frumsen",
-    "dateOfBirth": "22,03,1992",
-    "emailAddress": "Harmon.Courtney@company.com"
+    "zipcode": 1864,
+    "city": "Frumsen",
+    "emailAddress": "Harmon.Courtney@company.com",
+    "dateOfBirth": "04.11.1961"
   },
   {
     "firstName": "Abbott",
@@ -852,10 +852,10 @@
     "companyName": "Daimler",
     "phoneNumber": "+41 79 996 2170",
     "address": "uerklisweg 67",
-    "ZIP": 2084,
-    "City": "Brusino Arsizio",
-    "dateOfBirth": "11,01,1996",
-    "emailAddress": "Abbott.Allan@company.com"
+    "zipcode": 2084,
+    "city": "Brusino Arsizio",
+    "emailAddress": "Abbott.Allan@company.com",
+    "dateOfBirth": "16.02.2000"
   },
   {
     "firstName": "Wolfe",
@@ -863,10 +863,10 @@
     "companyName": "Royal Dutch Shell",
     "phoneNumber": "+41 79 329 2453",
     "address": "Im Sandbuel 76",
-    "ZIP": 1700,
-    "City": "Fribourg",
-    "dateOfBirth": "27,12,1984",
-    "emailAddress": "Wolfe.Jesus@company.com"
+    "zipcode": 1700,
+    "city": "Fribourg",
+    "emailAddress": "Wolfe.Jesus@company.com",
+    "dateOfBirth": "04.10.1981"
   },
   {
     "firstName": "Williamson",
@@ -874,10 +874,10 @@
     "companyName": "Tata Group",
     "phoneNumber": "+41 79 377 6157",
     "address": "Kronwiesenweg 79",
-    "ZIP": 1920,
-    "City": "La Batiaz",
-    "dateOfBirth": "22,09,2001",
-    "emailAddress": "Williamson.Elisa@company.com"
+    "zipcode": 1920,
+    "city": "La Batiaz",
+    "emailAddress": "Williamson.Elisa@company.com",
+    "dateOfBirth": "06.04.1989"
   },
   {
     "firstName": "Rose",
@@ -885,10 +885,10 @@
     "companyName": "United Health",
     "phoneNumber": "+41 79 796 9250",
     "address": "Betburweg 86",
-    "ZIP": 1027,
-    "City": "Lonay",
-    "dateOfBirth": "24,07,1982",
-    "emailAddress": "Rose.Roman@company.com"
+    "zipcode": 1027,
+    "city": "Lonay",
+    "emailAddress": "Rose.Roman@company.com",
+    "dateOfBirth": "03.04.1978"
   },
   {
     "firstName": "Medina",
@@ -896,10 +896,10 @@
     "companyName": "AXA",
     "phoneNumber": "+41 79 498 6563",
     "address": "Gerbiweg 94",
-    "ZIP": 8586,
-    "City": "Buchackern",
-    "dateOfBirth": "01,10,1998",
-    "emailAddress": "Medina.Willie@company.com"
+    "zipcode": 8586,
+    "city": "Buchackern",
+    "emailAddress": "Medina.Willie@company.com",
+    "dateOfBirth": "27.08.1989"
   },
   {
     "firstName": "Barker",
@@ -907,10 +907,10 @@
     "companyName": "Royal Dutch Shell",
     "phoneNumber": "+41 79 264 2414",
     "address": "Hasenbuhlstrasse 68",
-    "ZIP": 1102,
-    "City": "Bonaduz",
-    "dateOfBirth": "24,06,1990",
-    "emailAddress": "Barker.Jordan@company.com"
+    "zipcode": 1102,
+    "city": "Bonaduz",
+    "emailAddress": "Barker.Jordan@company.com",
+    "dateOfBirth": "04.05.1960"
   },
   {
     "firstName": "Black",
@@ -918,10 +918,10 @@
     "companyName": "Tata Group",
     "phoneNumber": "+41 79 408 6541",
     "address": "Postfach 138",
-    "ZIP": 1903,
-    "City": "Allmend",
-    "dateOfBirth": "13,04,1987",
-    "emailAddress": "Black.Andre@company.com"
+    "zipcode": 1903,
+    "city": "Allmend",
+    "emailAddress": "Black.Andre@company.com",
+    "dateOfBirth": "18.05.1986"
   },
   {
     "firstName": "Fleming",
@@ -929,10 +929,10 @@
     "companyName": "United Health",
     "phoneNumber": "+41 79 626 5990",
     "address": "Postfach 138",
-    "ZIP": 1903,
-    "City": "Allmend",
-    "dateOfBirth": "13,04,1987",
-    "emailAddress": "Fleming.Kenny@company.com"
+    "zipcode": 1903,
+    "city": "Allmend",
+    "emailAddress": "Fleming.Kenny@company.com",
+    "dateOfBirth": "21.07.1996"
   },
   {
     "firstName": "Hudson",
@@ -940,10 +940,10 @@
     "companyName": "AXA",
     "phoneNumber": "+41 79 969 1978",
     "address": "Im Sandbuel 36",
-    "ZIP": 1864,
-    "City": "Frumsen",
-    "dateOfBirth": "22,03,1992",
-    "emailAddress": "Hudson.Tracy@company.com"
+    "zipcode": 1864,
+    "city": "Frumsen",
+    "emailAddress": "Hudson.Tracy@company.com",
+    "dateOfBirth": "03.09.1993"
   },
   {
     "firstName": "Jefferson",
@@ -951,10 +951,10 @@
     "companyName": "BNP Paribas",
     "phoneNumber": "+41 79 718 0499",
     "address": "Im Sandbuel 36",
-    "ZIP": 1864,
-    "City": "Frumsen",
-    "dateOfBirth": "22,03,1992",
-    "emailAddress": "Jefferson.Wendell@company.com"
+    "zipcode": 1864,
+    "city": "Frumsen",
+    "emailAddress": "Jefferson.Wendell@company.com",
+    "dateOfBirth": "18.07.1979"
   },
   {
     "firstName": "Vargas",
@@ -962,10 +962,10 @@
     "companyName": "Daimler",
     "phoneNumber": "+41 79 988 8620",
     "address": "uerklisweg 67",
-    "ZIP": 2084,
-    "City": "Brusino Arsizio",
-    "dateOfBirth": "11,01,1996",
-    "emailAddress": "Vargas.Henry@company.com"
+    "zipcode": 2084,
+    "city": "Brusino Arsizio",
+    "emailAddress": "Vargas.Henry@company.com",
+    "dateOfBirth": "11.09.2004"
   },
   {
     "firstName": "Mendez",
@@ -973,10 +973,10 @@
     "companyName": "Royal Dutch Shell",
     "phoneNumber": "+41 79 500 1125",
     "address": "Im Sandbuel 76",
-    "ZIP": 1700,
-    "City": "Fribourg",
-    "dateOfBirth": "27,12,1984",
-    "emailAddress": "Mendez.Kelley@company.com"
+    "zipcode": 1700,
+    "city": "Fribourg",
+    "emailAddress": "Mendez.Kelley@company.com",
+    "dateOfBirth": "31.03.1985"
   },
   {
     "firstName": "Webb",
@@ -984,10 +984,10 @@
     "companyName": "Tata Group",
     "phoneNumber": "+41 79 851 9702",
     "address": "Kronwiesenweg 79",
-    "ZIP": 1920,
-    "City": "La Batiaz",
-    "dateOfBirth": "22,09,2001",
-    "emailAddress": "Webb.Pete@company.com"
+    "zipcode": 1920,
+    "city": "La Batiaz",
+    "emailAddress": "Webb.Pete@company.com",
+    "dateOfBirth": "28.11.1997"
   },
   {
     "firstName": "Lamb",
@@ -995,10 +995,10 @@
     "companyName": "United Health",
     "phoneNumber": "+41 79 466 4798",
     "address": "Betburweg 86",
-    "ZIP": 1027,
-    "City": "Lonay",
-    "dateOfBirth": "24,07,1982",
-    "emailAddress": "Lamb.Josephine@company.com"
+    "zipcode": 1027,
+    "city": "Lonay",
+    "emailAddress": "Lamb.Josephine@company.com",
+    "dateOfBirth": "21.10.2002"
   },
   {
     "firstName": "Olson",
@@ -1006,10 +1006,10 @@
     "companyName": "AXA",
     "phoneNumber": "+41 79 737 0472",
     "address": "Gerbiweg 94",
-    "ZIP": 8586,
-    "City": "Buchackern",
-    "dateOfBirth": "01,10,1998",
-    "emailAddress": "Olson.Tammy@company.com"
+    "zipcode": 8586,
+    "city": "Buchackern",
+    "emailAddress": "Olson.Tammy@company.com",
+    "dateOfBirth": "06.09.1993"
   },
   {
     "firstName": "Alexander",
@@ -1017,10 +1017,10 @@
     "companyName": "Honda",
     "phoneNumber": "+41 79 253 4710",
     "address": "Hasenbuhlstrasse 68",
-    "ZIP": 1102,
-    "City": "Bonaduz",
-    "dateOfBirth": "24,06,1990",
-    "emailAddress": "Alexander.Eugene@company.com"
+    "zipcode": 1102,
+    "city": "Bonaduz",
+    "emailAddress": "Alexander.Eugene@company.com",
+    "dateOfBirth": "30.11.1977"
   },
   {
     "firstName": "Mann",
@@ -1028,10 +1028,10 @@
     "companyName": "Glencore",
     "phoneNumber": "+41 79 493 2426",
     "address": "Postfach 138",
-    "ZIP": 1903,
-    "City": "Allmend",
-    "dateOfBirth": "13,04,1987",
-    "emailAddress": "Mann.Cornelius@company.com"
+    "zipcode": 1903,
+    "city": "Allmend",
+    "emailAddress": "Mann.Cornelius@company.com",
+    "dateOfBirth": "28.10.1970"
   },
   {
     "firstName": "Graves",
@@ -1039,10 +1039,10 @@
     "companyName": "Exxon Mobil",
     "phoneNumber": "+41 79 967 3912",
     "address": "Postfach 138",
-    "ZIP": 1903,
-    "City": "Allmend",
-    "dateOfBirth": "13,04,1987",
-    "emailAddress": "Graves.Amos@company.com"
+    "zipcode": 1903,
+    "city": "Allmend",
+    "emailAddress": "Graves.Amos@company.com",
+    "dateOfBirth": "31.07.1995"
   },
   {
     "firstName": "Padilla",
@@ -1050,10 +1050,10 @@
     "companyName": "CVS Health",
     "phoneNumber": "+41 79 961 4858",
     "address": "Im Sandbuel 36",
-    "ZIP": 1864,
-    "City": "Frumsen",
-    "dateOfBirth": "22,03,1992",
-    "emailAddress": "Padilla.Erik@company.com"
+    "zipcode": 1864,
+    "city": "Frumsen",
+    "emailAddress": "Padilla.Erik@company.com",
+    "dateOfBirth": "14.04.2001"
   },
   {
     "firstName": "Gordon",
@@ -1061,10 +1061,10 @@
     "companyName": "Cardinal Health",
     "phoneNumber": "+41 79 419 2265",
     "address": "uerklisweg 67",
-    "ZIP": 2084,
-    "City": "Brusino Arsizio",
-    "dateOfBirth": "11,01,1996",
-    "emailAddress": "Gordon.Stacy@company.com"
+    "zipcode": 2084,
+    "city": "Brusino Arsizio",
+    "emailAddress": "Gordon.Stacy@company.com",
+    "dateOfBirth": "19.04.1994"
   },
   {
     "firstName": "Lee",
@@ -1072,10 +1072,10 @@
     "companyName": "General Motors",
     "phoneNumber": "+41 79 265 0279",
     "address": "Hasenbuhlstrasse 68",
-    "ZIP": 1102,
-    "City": "Bonaduz",
-    "dateOfBirth": "24,06,1990",
-    "emailAddress": "Lee.Diana@company.com"
+    "zipcode": 1102,
+    "city": "Bonaduz",
+    "emailAddress": "Lee.Diana@company.com",
+    "dateOfBirth": "05.08.1984"
   },
   {
     "firstName": "Bass",
@@ -1083,10 +1083,10 @@
     "companyName": "Cardinal Health",
     "phoneNumber": "+41 79 440 2353",
     "address": "Postfach 138",
-    "ZIP": 1903,
-    "City": "Allmend",
-    "dateOfBirth": "13,04,1987",
-    "emailAddress": "Bass.Archie@company.com"
+    "zipcode": 1903,
+    "city": "Allmend",
+    "emailAddress": "Bass.Archie@company.com",
+    "dateOfBirth": "01.10.1973"
   },
   {
     "firstName": "Steele",
@@ -1094,9 +1094,9 @@
     "companyName": "General Motors",
     "phoneNumber": "+41 79 301 1729",
     "address": "Im Sandbuel 36",
-    "ZIP": 1864,
-    "City": "Frumsen",
-    "dateOfBirth": "22,03,1992",
-    "emailAddress": "Steele.Emmett@company.com"
+    "zipcode": 1864,
+    "city": "Frumsen",
+    "emailAddress": "Steele.Emmett@company.com",
+    "dateOfBirth": "28.02.2003"
   }
 ]

@@ -47,7 +47,7 @@ public class MyJsonManager {
         this.updateJson();
 
     }
-    public JSONObject addJsonObject(String path, String name, String creation_date, String modification_date) {
+    public JSONObject addJsonObjectImage(String path, String name, String creation_date, String modification_date) {
         JSONObject jsonobj = new JSONObject();
         jsonobj.put("path", path);
         jsonobj.put("name", name);
@@ -57,5 +57,7 @@ public class MyJsonManager {
         updateJson();
         return jsonobj;
     }
-
+    public JSONObject addJsonObjectContact() {
+        return null;
+    }
 }

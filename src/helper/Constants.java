@@ -28,6 +28,9 @@ public final class Constants {
     public static final String CONT_ADD_ICON = "src/assets/contact-add.png";
     public static final String CONT_ICON = "src/assets/contact-icon.png";
     public static final String CONT_EDIT_ICON = "src/assets/contact-edit.png";
+    public static final String CONTACT_DATA_PATH = "src/data_contact/";
+    public static final String CONTACT_JSON_FILE = CONTACT_DATA_PATH + "contacts.json";
+
 
     public static final Color FONT_COLOR = Color.WHITE;
     public static final Color TOP_PANEL_COLOR = Color.BLACK;
