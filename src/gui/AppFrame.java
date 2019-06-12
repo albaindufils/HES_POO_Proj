@@ -19,11 +19,11 @@ public class AppFrame extends JFrame {
     private void initFrame() {
         setSize(Constants.MAIN_FRAME_WIDTH, Constants.MAIN_FRAME_HEIGHT);
         setLayout(new BorderLayout());
-        setResizable(false);
-        setLocationRelativeTo(null);
+        setResizable(true);
         add(topPanel,BorderLayout.NORTH);
         add(middlePan,BorderLayout.CENTER);
         setVisible(true);
+        setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 }

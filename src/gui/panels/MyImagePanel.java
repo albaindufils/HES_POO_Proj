@@ -38,8 +38,7 @@ public class MyImagePanel extends JPanel {
         js = new JSlider(JSlider.HORIZONTAL,0,100,50);
     }
     public JPanel getTopPanel() {
-        return topPanel;
-    }
+        return topPanel; }
 
     /**
      * Cette fonction sert à mettre à jour le panel

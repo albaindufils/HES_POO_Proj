@@ -34,7 +34,7 @@ public class MyImagesList {
         return imgArr;
     }
     public MyImage addImage(String path, String name, String creation_date, String modification_date) {
-        JSONObject img_json = jsonMan.addJsonObject(path, name, creation_date,modification_date);
+        JSONObject img_json = jsonMan.addJsonObjectImage(path, name, creation_date,modification_date);
         MyImage img_tmp = new MyImage(path, name, creation_date,modification_date,img_json,jsonMan);
         imgArr.add(img_tmp);
         return img_tmp;
