@@ -15,6 +15,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 
+/**
+ * La classe "ContactMiddlePanel" gère les contacts
+ */
+
 public class ContactMiddlePanel extends MyPanel {
 
     private JPanel contactsPanel;

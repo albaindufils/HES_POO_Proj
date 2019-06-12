@@ -17,7 +17,8 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 
 /**
- * Class CameraMiddlePanel contient les différents attributs de la
+ * Class CameraMiddlePanel contient les différents attributs qui seront utilisé pour
+ * l'application camera de notre projet. Le boderlayout a été instanciée.
  */
 public class CameraMiddlePanel extends MyPanel {
     private Webcam webcam;
@@ -27,6 +28,13 @@ public class CameraMiddlePanel extends MyPanel {
         super(new BorderLayout());
         init();
     }
+
+    /**
+     * Le constructeur "init" va lancer l'affichage de l'application et
+     * permettre l'utilisation de la webcam pour notre application camera.
+     * cette caméra et connecté à la webcam de l'ordinateur et va permettre de prendre une photo
+     * avec le bouton take_pic et celle-ci va être ajoutée dans la liste des images.
+     */
     @Override
     protected void init() {
         webcam = Webcam.getDefault();
@@ -43,6 +51,12 @@ public class CameraMiddlePanel extends MyPanel {
         add(middlePan, BorderLayout.CENTER);
         myImagesList=MyImagesList.getInstance();
     }
+
+    /**
+     * Cette classe va définir les différents attributs de la photo prise par la caméra.
+     * la date d'aujourd'hui avec "now" et l'attribut "webcam.png" pour chaque photo.
+     * le format de l'image est définit en png comme mentionné dans le formatName.
+     */
     class TakePictureBehavior implements ActionListener {
 
         @Override

@@ -19,8 +19,12 @@ import java.nio.file.StandardCopyOption;
 import java.time.LocalDateTime;
 
 /**
- *La class "GalleryMiddlePanel" possède les différents
+ *La class "GalleryMiddlePanel" possède les différents boutons
+ * d'interaction pour switcher entre les différentes images.
+ * Il y a aussi les boutons de retour et ajouter une nouvelle image.
+ *
  */
+
 public class GalleryMiddlePanel extends MyPanel {
     private JPanel imagesPanel;
     private MyImagePanel imagePanel;
@@ -37,10 +41,9 @@ public class GalleryMiddlePanel extends MyPanel {
 
 
     /**
-     *le constructeur "GalleryMiddlePanel" va créer et initialiser un borderlayout
+     * le constructeur "GalleryMiddlePanel" va créer et initialiser un borderlayout.
+     * le constructeur init va lancer l'affichage de attributs listé dans la classe du dessus.
      *
-
-
      */
     public GalleryMiddlePanel() {
 
@@ -58,6 +61,11 @@ public class GalleryMiddlePanel extends MyPanel {
             }
         }
     }
+
+    /**
+     * Dans cette methode toutes les valeurs ont été instanciée
+     */
+
     @Override
     protected void init() {
         cards = new JPanel(new CardLayout());

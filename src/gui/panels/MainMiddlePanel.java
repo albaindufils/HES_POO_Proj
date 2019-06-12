@@ -10,7 +10,10 @@ import java.awt.event.ActionListener;
 
 
 /**
- *
+ *La classe "MainMiddlePanel" contient tous les attributs utilisé
+ * dans la vue principal de l'application. Dans cette nous allons
+ * retrouver les boutons contacts, gallery, camera et même le bouton back
+ * pour le retour à la page initiale. toutes les valeurs ont été instancié dans cette classe.
  */
 public class MainMiddlePanel extends MyPanel  {
     JButton btnContact = new MainAppButton(Constants.CONTACT_ICON,Constants.MAIN_BTN_HEIGHT,Constants.MAIN_BTN_WIDTH);
@@ -28,11 +31,21 @@ public class MainMiddlePanel extends MyPanel  {
     CardLayout card_manager;
 
 
+    /**
+     * Le constructeur "MainMiddlePanel" va permettre d'instancier le BorderLayout.
+     * et le "init" va permettre de lancer l'affichage.
+     */
+
     public MainMiddlePanel() {
         super(new BorderLayout());
         card_manager = (CardLayout) cards.getLayout();
         init();
     }
+
+    /**
+     * On peut voir que dans le "init"
+     */
+
     @Override
     protected void init() {
 
