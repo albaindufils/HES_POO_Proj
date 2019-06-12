@@ -9,6 +9,9 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 
+/**
+ *
+ */
 public class MainMiddlePanel extends MyPanel  {
     JButton btnContact = new MainAppButton(Constants.CONTACT_ICON,Constants.MAIN_BTN_HEIGHT,Constants.MAIN_BTN_WIDTH);
     JButton btnGallery = new MainAppButton(Constants.GALLERIE_ICON,Constants.MAIN_BTN_HEIGHT,Constants.MAIN_BTN_WIDTH);

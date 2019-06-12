@@ -19,7 +19,7 @@ import java.nio.file.StandardCopyOption;
 import java.time.LocalDateTime;
 
 /**
- *
+ *La class "GalleryMiddlePanel" possède les différents
  */
 public class GalleryMiddlePanel extends MyPanel {
     private JPanel imagesPanel;
@@ -37,7 +37,10 @@ public class GalleryMiddlePanel extends MyPanel {
 
 
     /**
+     *le constructeur "GalleryMiddlePanel" va créer et initialiser un borderlayout
      *
+
+
      */
     public GalleryMiddlePanel() {
 

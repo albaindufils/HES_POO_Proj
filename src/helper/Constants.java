@@ -5,6 +5,10 @@ import java.awt.*;
 import java.awt.event.ActionListener;
 import java.time.format.DateTimeFormatter;
 
+/**
+ * La class "Constants" contient les valeurs static de la strucutre, des icones et fond d'ecran.
+ * Toutes ces valeurs doivent rester inchangée et seront utilisée dans les autres classes.
+ */
 public final class Constants {
     public static final int MAIN_FRAME_WIDTH = 480;
     public static final int MAIN_FRAME_HEIGHT = 800;
@@ -31,6 +35,14 @@ public final class Constants {
     public static final DateTimeFormatter DATETIME_FILE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd_HH-mm");
     private Constants() {}
 
+    /**
+     * Le constructeur "Dimension" va permettre de réajuster les dimensions de l'image.
+     * Vue que les images ne sont pas toujours dans le même format the constructeur va forcer le format des images de la galerie.
+     * @param img_tmp
+     * @param parent_width
+     * @param parent_height
+     * @return
+     */
     public static Dimension getRatioImage(Image img_tmp, int parent_width, int parent_height){
         int width_final = 0;
         int height_final = 0;

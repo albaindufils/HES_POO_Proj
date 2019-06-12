@@ -10,6 +10,9 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
+/**
+ *
+ */
 public class MyJsonManager {
     private JSONParser jsonParser;
     private JSONArray jsonArray;

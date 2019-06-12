@@ -8,6 +8,10 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 
+/**
+ * La class "HomeMiddlePanel" va hériter des méthodes de la class "MyPanel".
+ *
+ */
 public class HomeMiddlePanel extends MyPanel {
     private BufferedImage image;
 

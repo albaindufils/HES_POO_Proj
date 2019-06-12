@@ -5,11 +5,18 @@ import src.helper.Constants;
 
 import java.util.ArrayList;
 
+/**
+ * La class "MyImagesList" contient différent attributs.
+ * un "ArrayList" pour créer un tableau des images.
+ */
 public class MyImagesList {
     private ArrayList<MyImage> imgArr;
     private MyJsonManager jsonMan;
     private static MyImagesList INSTANCE = new MyImagesList();
 
+    /**
+     * Le constructeur "MyImagesList" crée la liste des images de la galerie.
+     */
     public MyImagesList() {
         init();
     }
@@ -30,6 +37,10 @@ public class MyImagesList {
         });
 
     }
+
+    /**
+     * @return
+     */
     public ArrayList<MyImage> getArrayList() {
         return imgArr;
     }

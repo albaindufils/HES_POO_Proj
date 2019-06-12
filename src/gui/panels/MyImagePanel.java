@@ -9,6 +9,10 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
+/**
+ * La class "MyImagePanel"
+ */
+
 public class MyImagePanel extends JPanel {
     MyImage currImage;
     MainAppButton image;
@@ -20,6 +24,10 @@ public class MyImagePanel extends JPanel {
     JPanel topPanel;
     JPanel bottomPanel;
     JSlider js;
+
+    /**
+     * Le constructeur "MyImagePanel" fait appel à la classe 
+     */
     public MyImagePanel() {
         super(new BorderLayout());
         init();
@@ -51,6 +59,10 @@ public class MyImagePanel extends JPanel {
         lbl_creation_date.setText("Creation date: " + currImage.getCreation_date());
         lbl_modification_date.setText("Modification date: " + currImage.getModification_date());
     }
+
+    /**
+     * @param img
+     */
     public void setCurrImage(MyImage img) {
         currImage = img;
         image.setImage(Constants.IMAGES_DATA_PATH + currImage.getPath());
