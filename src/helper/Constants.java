@@ -15,6 +15,7 @@ public final class Constants {
     public static final int MAIN_BTN_WIDTH = 65;
     public static final int MAIN_BTN_HEIGHT = 65;
     public static final int BACK_SIZE = 25;
+    public static final int CONTACT_MAX_HEIGHT = 50;
     public static final String ASSETS_HOME_PNG = "src/assets/home.png";
     public static final String CONTACT_ICON = "src/assets/ios_icons/Contacts.png";
     public static final String GALLERIE_ICON = "src/assets/ios_icons/Photos.png";

@@ -22,6 +22,9 @@ public class ContactMiddlePanel extends MyPanel {
     private MyContactPanel contactPanel;
     private JTextField search_bar;
     private ListContact ctct_list;
+    private CardLayout card_manager;
+    private MainAppButton btnRetour;
+
 
     public ContactMiddlePanel() {
         super(new BorderLayout());
@@ -30,12 +33,13 @@ public class ContactMiddlePanel extends MyPanel {
     @Override
     protected void init() {
         cards = new JPanel(new CardLayout());
+        card_manager = (CardLayout) cards.getLayout();
         contactsPanel = new JPanel(/*new WrapLayout(WrapLayout.LEFT)*/);
-        BoxLayout bl = new BoxLayout(contactsPanel,BoxLayout.Y_AXIS);
+        BoxLayout bl = new BoxLayout(contactsPanel,BoxLayout.PAGE_AXIS);
         contactPanel = new MyContactPanel();
         search_bar = new JTextField();
         contactsPanel.setLayout(bl);
-
+        btnRetour = new MainAppButton(Constants.BACK_IMAGE,Constants.BACK_SIZE,Constants.BACK_SIZE);
 
 
         JScrollPane jp = new JScrollPane(contactsPanel,JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
@@ -43,7 +47,15 @@ public class ContactMiddlePanel extends MyPanel {
         cards.add(contactPanel,"contactPanel");
         add(cards,BorderLayout.CENTER);
         add(search_bar,BorderLayout.NORTH);
-
+        btnRetour.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                search_bar.setVisible(true);
+                updateDisplay();
+                card_manager.show(cards,"contactsPanel");
+            }
+        });
+        contactPanel.getTopPanel().add(btnRetour, BorderLayout.WEST);
         search_bar.addKeyListener(new FilterContact());
         ctct_list = new ListContact();
         Collections.sort(ctct_list.getArrayList());
@@ -51,8 +63,10 @@ public class ContactMiddlePanel extends MyPanel {
         contactsPanel.removeAll();
         updateDisplay();
 
+
     }
     private void  updateDisplay() {
+        contactsPanel.removeAll();
         for (int i=0; i< ctct_list.getArrayList().size(); i++) {
             addContactToPanel(ctct_list.getArrayList().get(i));
         }
@@ -83,9 +97,10 @@ public class ContactMiddlePanel extends MyPanel {
         btn_edit.addActionListener(new EditContact(ctct));
         rightInfos.add(btn_del);
         rightInfos.add(btn_edit);
-        oneContactPanel.add(new MainAppButton(Constants.CONT_ICON,50,50),BorderLayout.WEST);
+        oneContactPanel.add(new MainAppButton(Constants.CONT_ICON,Constants.CONTACT_MAX_HEIGHT-5,Constants.CONTACT_MAX_HEIGHT-5),BorderLayout.WEST);
         oneContactPanel.add(middleInfos,BorderLayout.CENTER);
         oneContactPanel.add(rightInfos,BorderLayout.EAST);
+        oneContactPanel.setMaximumSize(new Dimension(Integer.MAX_VALUE, Constants.CONTACT_MAX_HEIGHT+5));
         contactsPanel.add(new JLabel(" "));
         contactsPanel.add(oneContactPanel);
         ctct.setOneContactPanel(oneContactPanel);
@@ -98,8 +113,8 @@ public class ContactMiddlePanel extends MyPanel {
         }
         @Override
         public void actionPerformed(ActionEvent e) {
-            ctct_list.removeContact(ctc);
             contactsPanel.removeAll();
+            ctct_list.removeContact(ctc);
             updateDisplay();
         }
     }
@@ -110,7 +125,9 @@ public class ContactMiddlePanel extends MyPanel {
         }
         @Override
         public void actionPerformed(ActionEvent e) {
-
+            search_bar.setVisible(false);
+            card_manager.show(cards,"contactPanel");
+            contactPanel.setCurrContact(ctc);
         }
     }
     class FilterContact implements KeyListener {
@@ -125,14 +142,12 @@ public class ContactMiddlePanel extends MyPanel {
         public void keyReleased(KeyEvent e) {
             ArrayList<Contact> arr = new ArrayList<>();
             String txt = ((JTextField)e.getSource()).getText().toUpperCase();
-            System.out.println("======================================");
             contactsPanel.removeAll();
 
             for(Contact c: ctct_list.getArrayList()) {
                 if ((c.getLastName() + " " +c.getFirstName()).toUpperCase().contains(txt)) {
-                    // System.out.println(c);
                     contactsPanel.add(c.getOneContactPanel());
-                    // addContactToPanel(c);
+                    contactsPanel.add(new JLabel(" "));
                 }
             }
         }

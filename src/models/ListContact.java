@@ -30,7 +30,7 @@ public class ListContact {
                     //(String) ctc_tmp.get("zipcode"),
                     (String) ctc_tmp.get("dateOfBirth"),
                     (String) ctc_tmp.get("emailAddress"),
-                    ctc_tmp));
+                    ctc_tmp, jsonMan));
         });
     }
     public ArrayList<Contact> getArrayList() {

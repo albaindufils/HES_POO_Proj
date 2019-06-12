@@ -19,7 +19,7 @@ public class AppFrame extends JFrame {
     private void initFrame() {
         setSize(Constants.MAIN_FRAME_WIDTH, Constants.MAIN_FRAME_HEIGHT);
         setLayout(new BorderLayout());
-        setResizable(true);
+        setResizable(false);
         add(topPanel,BorderLayout.NORTH);
         add(middlePan,BorderLayout.CENTER);
         setVisible(true);
