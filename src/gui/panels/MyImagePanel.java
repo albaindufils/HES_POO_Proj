@@ -23,7 +23,6 @@ public class MyImagePanel extends JPanel {
     JLabel lbl_modification_date;
     JPanel topPanel;
     JPanel bottomPanel;
-    JSlider js;
 
     /**
      * Le constructeur "MyImagePanel" fait appel à la classe 
@@ -43,7 +42,6 @@ public class MyImagePanel extends JPanel {
         bottomPanel = new JPanel();
         bottomPanel.setLayout(new BoxLayout(bottomPanel, BoxLayout.PAGE_AXIS));
         txt_name.addKeyListener(new KeyWritted());
-        js = new JSlider(JSlider.HORIZONTAL,0,100,50);
     }
     public JPanel getTopPanel() {
         return topPanel; }
@@ -69,7 +67,6 @@ public class MyImagePanel extends JPanel {
         image.setButton(Constants.IMAGES_DATA_PATH + currImage.getPath(),img_size.height,img_size.width);
         update();
         topPanel.add(txt_name);
-        bottomPanel.add(js);
         bottomPanel.add(lbl_creation_date);
         bottomPanel.add(lbl_modification_date);
         bottomPanel.add(lbl_path);
@@ -77,8 +74,6 @@ public class MyImagePanel extends JPanel {
         add(topPanel, BorderLayout.NORTH);
         add(bottomPanel, BorderLayout.SOUTH);
         add(image, BorderLayout.CENTER);
-
-
 
     }
 
