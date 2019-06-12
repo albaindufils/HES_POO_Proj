@@ -1,5 +1,7 @@
 package src.models;
 
+import org.json.simple.JSONObject;
+
 import javax.swing.*;
 
 public class Contact implements Comparable< Contact > {
@@ -11,10 +13,11 @@ public class Contact implements Comparable< Contact > {
     private String dateOfBirth;
     private String emailAddress;
     private String city;
+    private JSONObject ctc_json;
     private JPanel pan=null;
 
-    public Contact( String firstName, String lastName, String companyName, String phoneNumber,
-                     String address, String city, /*String zipcode,*/ String dateOfBirth, String emailAddress) {
+    public Contact(String firstName, String lastName, String companyName, String phoneNumber,
+                   String address, String city, /*String zipcode,*/ String dateOfBirth, String emailAddress, JSONObject ctc_json) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.companyName = companyName;
@@ -23,9 +26,9 @@ public class Contact implements Comparable< Contact > {
         this.dateOfBirth = dateOfBirth;
         this.emailAddress = emailAddress;
         this.city = city;
-
+        this.ctc_json = ctc_json;
     }
-
+    public JSONObject getJsonObject() {return ctc_json;}
     public String getFirstName() {
         return firstName;
     }
@@ -78,15 +81,5 @@ public class Contact implements Comparable< Contact > {
     public String toString() {
         return "[lastname=" + lastName + ",firstName="+firstName+"]";
     }
-/*
-    @Override
-    public int compareTo(Contact comparestu) {
-        int compareage=((Contact)comparestu).get();
-        *//* For Ascending order*//*
-        return this.studentage-compareage;
-
-        *//* For Descending order do like this *//*
-        //return compareage-this.studentage;
-    }*/
 
 }

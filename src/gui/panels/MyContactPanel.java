@@ -1,6 +1,5 @@
 package src.gui.panels;
 
-import src.gui.MainAppButton;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
@@ -8,9 +7,10 @@ import java.awt.event.KeyListener;
 
 public class MyContactPanel extends JPanel {
 
-    JTextField txt_Search;
-    MainAppButton Contact;
-    JPanel topPanel;
+    private JTextField txt_Search;
+    private JPanel topPanel;
+    private JPanel middlePanel;
+
 
     public MyContactPanel() {
         super(new BorderLayout());
@@ -18,12 +18,12 @@ public class MyContactPanel extends JPanel {
     }
 
     public void init() {
-
-        Contact = new MainAppButton();
-        txt_Search=new JTextField();
-        txt_Search.addKeyListener(new MyContactPanel.KeyWritted());
-        topPanel = new JPanel(new BorderLayout());
+        middlePanel = new JPanel(new SpringLayout());
+        middlePanel.add(new JLabel("Label: "));
+        middlePanel.add(new JTextField("Text field", 15));
+        add(middlePanel,BorderLayout.CENTER);
     }
+
 
     class KeyWritted implements KeyListener {
         public KeyWritted() {}
