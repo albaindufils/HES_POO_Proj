@@ -33,7 +33,7 @@ public class MyContactPanel extends MyPanel {
     @Override
     public void init() {
         middlePanel = new JPanel();
-        Dimension myDim = new Dimension(Integer.MAX_VALUE,50);
+        Dimension myDim = new Dimension(Integer.MAX_VALUE,30);
         topPanel=new JPanel(new BorderLayout());
         txt_firstName=new MyContactTextField(myDim);
         txt_lastName=new MyContactTextField(myDim);
@@ -52,15 +52,22 @@ public class MyContactPanel extends MyPanel {
         add(middlePanel,BorderLayout.CENTER);
         add(topPanel,BorderLayout.NORTH);
 
-
+        middlePanel.add(new JLabel("Firstname:"));
         middlePanel.add(txt_firstName);
+        middlePanel.add(new JLabel("Lastname:"));
         middlePanel.add(txt_lastName);
+        middlePanel.add(new JLabel("Company:"));
         middlePanel.add(txt_companyName);
+        middlePanel.add(new JLabel("Phone number:"));
         middlePanel.add(txt_phoneNumber);
+        middlePanel.add(new JLabel("Address:"));
         middlePanel.add(txt_address);
-        middlePanel.add(txt_dateOfBirth);
-        middlePanel.add(txt_emailAddress);
+        middlePanel.add(new JLabel("City:"));
         middlePanel.add(txt_city);
+        middlePanel.add(new JLabel("Date of birth:"));
+        middlePanel.add(txt_dateOfBirth);
+        middlePanel.add(new JLabel("Email:"));
+        middlePanel.add(txt_emailAddress);
         txt_firstName.addKeyListener(new KeyWritted("firstname"));
         txt_lastName.addKeyListener(new KeyWritted("lastname"));
         txt_companyName.addKeyListener(new KeyWritted("companyname"));
