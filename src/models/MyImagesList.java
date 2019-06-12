@@ -39,6 +39,8 @@ public class MyImagesList {
     }
 
     /**
+     * Cette méthode refdefni la list des images selon les attributs
+     *
      * @return
      */
     public ArrayList<MyImage> getArrayList() {

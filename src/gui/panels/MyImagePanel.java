@@ -10,7 +10,8 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
 /**
- * La class "MyImagePanel"
+ * La class "MyImagePanel" possède les différents attributs utilisé
+ * pour les images.
  */
 
 public class MyImagePanel extends JPanel {
@@ -32,6 +33,11 @@ public class MyImagePanel extends JPanel {
         super(new BorderLayout());
         init();
     }
+
+    /**
+     * Méthode qui a été redefinie pour permettre un affichage propre à ce panel.
+     * toutes les valeurs ont été instanciée.
+     */
     public void init() {
         image = new MainAppButton();
         txt_name=new JTextField();
@@ -49,7 +55,7 @@ public class MyImagePanel extends JPanel {
         return topPanel; }
 
     /**
-     * Cette fonction sert à mettre à jour le panel
+     * Cette fonction sert à mettre à jour les attributs de l'image modifiée.
      */
     private void update() {
         txt_name.setText(currImage.getName());
@@ -60,6 +66,8 @@ public class MyImagePanel extends JPanel {
     }
 
     /**
+     * Cette méthode va permettre de réajuster tous les attributs de l'image et même de conserver
+     * un traçabilité.
      * @param img
      */
     public void setCurrImage(MyImage img) {
@@ -82,6 +90,9 @@ public class MyImagePanel extends JPanel {
 
     }
 
+    /**
+     * Classe "KeyWritted" permet de générer la date de changement de l'image.
+     */
     class KeyWritted implements KeyListener {
         public KeyWritted() {}
         @Override

@@ -43,7 +43,10 @@ public class MainMiddlePanel extends MyPanel  {
     }
 
     /**
-     * On peut voir que dans le "init"
+     * On peut voir que dans la methode "init" tous les boutons
+     * on été structuré, vue que la méthode était abstract.
+     * dans cette methode on trouve tous les boutons présent dans la page home
+     * de notre application.
      */
 
     @Override
@@ -70,6 +73,11 @@ public class MainMiddlePanel extends MyPanel  {
         add(cards);
         card_manager.show(cards,"btnPanel");
     }
+
+    /**
+     * La classe "ButtonBehaviors" va générer l'action de se rendre dans
+     * le galleryPanel.
+     */
 
     class ButtonBehaviors implements ActionListener {
         private String index;

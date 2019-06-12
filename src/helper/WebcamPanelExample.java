@@ -7,6 +7,11 @@ import com.github.sarxos.webcam.WebcamResolution;
 import javax.swing.*;
 
 
+/**
+ * La classe "WebcamPanelExample" va aider à générer le display principal.
+ * Elle va offir la taille prédéfini dans une autre classe.
+ */
+
 public class WebcamPanelExample {
 
 	public static void main(String[] args) throws InterruptedException {

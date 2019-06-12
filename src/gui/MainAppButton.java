@@ -3,6 +3,10 @@ package src.gui;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ *La classe "MainAppButton" contient tous les bontons changement ou initialisation
+ * d'image faite sur l'application.
+ */
 public class MainAppButton extends JButton {
     private ImageIcon basedImageIcon;
     private int height;
@@ -20,6 +24,12 @@ public class MainAppButton extends JButton {
         this.width = width;
         initializeButton();
     }
+
+    /**
+     * Cette méthode définit la taille des images en format icon.
+     * pour que toutes les images soient au même format et qu'elles n'empiètent pas sur les autres.
+     * @param iconPath
+     */
     public void setImage(String iconPath) {
         basedImageIcon = new ImageIcon(iconPath);
     }
@@ -35,6 +45,11 @@ public class MainAppButton extends JButton {
 
         setIcon(new ImageIcon(img));
     }
+
+    /**
+     * La méthode "getImage" pour l'obtention d'une nouvelle image dans les icones.
+     * @return
+     */
     public Image getImage() {
         return basedImageIcon.getImage();
     }

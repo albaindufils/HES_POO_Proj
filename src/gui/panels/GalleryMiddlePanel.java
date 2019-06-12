@@ -64,6 +64,9 @@ public class GalleryMiddlePanel extends MyPanel {
 
     /**
      * Dans cette methode toutes les valeurs ont été instanciée
+     * et strucutrée dans methode ci-dessous. vue que classe parent
+     * MyPanel a été definie comme abstract, on doit défénir le "init"
+     * pour toutes les classes enfants.
      */
 
     @Override
@@ -119,6 +122,12 @@ public class GalleryMiddlePanel extends MyPanel {
         btn.addActionListener(new ImageButtonBehavior(indexOfArrayList,"imagePanel"));
         imagesPanel.add(btn);
     }
+
+    /**
+     * La methode "reconfigueButtonBehaviorFromImage" permet de de supprimer toutes les actions
+     * faites précédement
+     */
+
     private void reconfigueButtonBehaviorFromImage() {
         for (int i=0; i<imagesList.getArrayList().size(); i++){
             MyImage img = imagesList.getArrayList().get(i);
@@ -128,6 +137,13 @@ public class GalleryMiddlePanel extends MyPanel {
 
 
     }
+
+    /**
+     * La classe "AddImageBehavior" permet de gérer l'ajout d'une image dans la galery.
+     * Cette image peut être selectionné dans les fichiers de l'ordinateur de l'utilisateur.
+     * celle-ci sera automatiquement ajuster au format des prédefinit ci-dessous et dans
+     * le même format que les autres images.
+     */
 
     class AddImageBehavior implements ActionListener {
         @Override
@@ -159,6 +175,12 @@ public class GalleryMiddlePanel extends MyPanel {
             }
         }
     }
+
+    /**
+     * La classe "DeleteImageBehavior" va permettre de supprimer l'image et de mettre à jour
+     * le gallery image.
+     */
+
     class DeleteImageBehavior implements ActionListener {
         private MyImage img;
         public DeleteImageBehavior(MyImage img) {
@@ -187,6 +209,10 @@ public class GalleryMiddlePanel extends MyPanel {
 
         }
 
+        /**la methode "actionPerformed" va aider à redisposer les image dans la galery
+         * une fois modification faite.
+         * @param e
+         */
         @Override
         public void actionPerformed(ActionEvent e) {
             card_manager.show(cards, card_index);
