@@ -39,6 +39,7 @@ public class MyImagesList {
     }
 
     /**
+     * Le constructeur "getArrayList" va permettre de générer
      * @return
      */
     public ArrayList<MyImage> getArrayList() {

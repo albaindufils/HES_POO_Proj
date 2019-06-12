@@ -17,7 +17,8 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 
 /**
- * Class CameraMiddlePanel contient les différents attributs de la
+ * Class CameraMiddlePanel est la principale classe qui va prendre en charge l'utilisation de camera du laptop.
+ *
  */
 public class CameraMiddlePanel extends MyPanel {
     private Webcam webcam;
@@ -27,6 +28,11 @@ public class CameraMiddlePanel extends MyPanel {
         super(new BorderLayout());
         init();
     }
+
+    /**
+     * Le constructeur init met en place les méthodes pour pour capturer des photos à l'aide de la caméra.
+     *
+     */
     @Override
     protected void init() {
         webcam = Webcam.getDefault();
@@ -45,6 +51,10 @@ public class CameraMiddlePanel extends MyPanel {
     }
     class TakePictureBehavior implements ActionListener {
 
+        /**
+         * Le constructeur "actionPerformed" va permettre de donner des attributs à la photo prise dans le constructeur du dessus.
+         * @param e
+         */
         @Override
         public void actionPerformed(ActionEvent e) {
 

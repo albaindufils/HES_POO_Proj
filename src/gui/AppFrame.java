@@ -16,6 +16,10 @@ public class AppFrame extends JFrame {
         super();
         initFrame();
     }
+
+    /**
+     * le constructeur "initFrame" va permettre intialiser le la structure principal et la gardée constante.
+     */
     private void initFrame() {
         setSize(Constants.MAIN_FRAME_WIDTH, Constants.MAIN_FRAME_HEIGHT);
         setLayout(new BorderLayout());

@@ -61,6 +61,11 @@ public final class Constants {
         }
         return new Dimension(width_final,height_final);
     }
+
+    /**
+     * le constructeur "removeAllActionInButton" va permettre un retour au mainpanel ou ce trouve les icons des applications.
+     * @param btn
+     */
     public static void removeAllActionInButton(JButton btn) {
         for(ActionListener al: btn.getActionListeners() ) {
             btn.removeActionListener(al);

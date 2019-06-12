@@ -8,6 +8,9 @@ import java.awt.*;
 import java.time.LocalDateTime;
 
 
+/**
+ * la class "TopPanel" va permettre de setuper le dessus de l'écran avec l'orloge temps.
+ */
 public class TopPanel extends MyPanel  {
     
 

@@ -30,8 +30,7 @@ public class AlphaContainer extends JComponent
     }
 
     /**
-     *  Paint the background using the background Color of the
-     *  contained component
+     *  remplir le fond avec la couleur du fond d'écran
      */
     @Override
     public void paintComponent(Graphics g)
