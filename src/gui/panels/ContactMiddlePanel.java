@@ -48,10 +48,14 @@ public class ContactMiddlePanel extends MyPanel {
         ctct_list = new ListContact();
         Collections.sort(ctct_list.getArrayList());
         ctct_list.getArrayList();
+        contactsPanel.removeAll();
+        updateDisplay();
+
+    }
+    private void  updateDisplay() {
         for (int i=0; i< ctct_list.getArrayList().size(); i++) {
             addContactToPanel(ctct_list.getArrayList().get(i));
         }
-
     }
     private void addContactToPanel(Contact ctct) {
 
@@ -75,8 +79,8 @@ public class ContactMiddlePanel extends MyPanel {
         MainAppButton btn_edit = new MainAppButton(Constants.CONT_EDIT_ICON,20,20);
         btn_del.setBorder(BorderFactory.createEmptyBorder(0, 0, 5, 0));
         btn_del.setBorder(BorderFactory.createEmptyBorder(0, 0, 5, 0));
-        btn_del.addActionListener(new DeleteContact());
-        btn_edit.addActionListener(new DeleteContact());
+        btn_del.addActionListener(new DeleteContact(ctct));
+        btn_edit.addActionListener(new EditContact(ctct));
         rightInfos.add(btn_del);
         rightInfos.add(btn_edit);
         oneContactPanel.add(new MainAppButton(Constants.CONT_ICON,50,50),BorderLayout.WEST);
@@ -88,14 +92,22 @@ public class ContactMiddlePanel extends MyPanel {
 
     }
     class DeleteContact implements ActionListener {
-
+        private Contact ctc;
+        public DeleteContact(Contact ctc) {
+            this.ctc=ctc;
+        }
         @Override
         public void actionPerformed(ActionEvent e) {
-
+            ctct_list.removeContact(ctc);
+            contactsPanel.removeAll();
+            updateDisplay();
         }
     }
     class EditContact implements ActionListener {
-
+        private Contact ctc;
+        public EditContact(Contact ctc) {
+            this.ctc=ctc;
+        }
         @Override
         public void actionPerformed(ActionEvent e) {
 

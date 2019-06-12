@@ -20,19 +20,24 @@ public class ListContact {
 
     public void init() {
         jsonMan.getReadedJson().forEach(ctct -> {
-            JSONObject img_tmp = (JSONObject) ctct;
-            contactArr.add(new Contact((String) img_tmp.get("firstName"),
-                    (String) img_tmp.get("lastName"),
-                    (String) img_tmp.get("companyName"),
-                    (String) img_tmp.get("phoneNumber"),
-                    (String) img_tmp.get("address"),
-                    (String) img_tmp.get("city"),
-                    //(String) img_tmp.get("zipcode"),
-                    (String) img_tmp.get("dateOfBirth"),
-                    (String) img_tmp.get("emailAddress")));
+            JSONObject ctc_tmp = (JSONObject) ctct;
+            contactArr.add(new Contact((String) ctc_tmp.get("firstName"),
+                    (String) ctc_tmp.get("lastName"),
+                    (String) ctc_tmp.get("companyName"),
+                    (String) ctc_tmp.get("phoneNumber"),
+                    (String) ctc_tmp.get("address"),
+                    (String) ctc_tmp.get("city"),
+                    //(String) ctc_tmp.get("zipcode"),
+                    (String) ctc_tmp.get("dateOfBirth"),
+                    (String) ctc_tmp.get("emailAddress"),
+                    ctc_tmp));
         });
     }
     public ArrayList<Contact> getArrayList() {
         return contactArr;
+    }
+    public void removeContact(Contact ctc) {
+        jsonMan.removeObject(ctc.getJsonObject());
+        contactArr.remove(ctc);
     }
 }
