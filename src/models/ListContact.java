@@ -5,10 +5,20 @@ import src.helper.Constants;
 
 import java.util.ArrayList;
 
+/**
+ * La classe "ListContact" va lister les attributs utilisé
+ * dans l'affichage de la list des contactes.
+ */
+
 public class ListContact {
     private ArrayList<Contact> contactArr;
     private MyJsonManager jsonMan;
 
+
+    /**
+     * Le constructeur "ListContact" va permettre de générer
+     * cette liste de contact.
+     */
 
     public ListContact() {
         contactArr = new ArrayList<>();
@@ -17,6 +27,10 @@ public class ListContact {
     }
 
 
+    /**
+     * La méthode "init" va collecter les différentes information
+     * par le biais d'un reader Json.
+     */
 
     public void init() {
         jsonMan.getReadedJson().forEach(ctct -> {

@@ -16,7 +16,9 @@ import java.util.Collections;
 
 
 /**
- * La classe "ContactMiddlePanel" gère les contacts
+ * La classe "ContactMiddlePanel" liste les panels principaux dans cette classe.
+ * Cette classe est instancier de la classe parent MyPanel,
+ * qui est une classe abstract et doit être redefini pour chaque sous classe.
  */
 
 public class ContactMiddlePanel extends MyPanel {
@@ -30,10 +32,22 @@ public class ContactMiddlePanel extends MyPanel {
     private MainAppButton btnRetour;
 
 
+    /**
+     * ce constructeur va afficher le borderLayout de panel contact
+     * grace au constructor "init"
+     */
+
     public ContactMiddlePanel() {
         super(new BorderLayout());
         init();
     }
+
+    /**
+     * Vue que le MyPanel est un abstract on va devoir faire un override
+     * et redefinir le "init" pour l'adapter à la au layout
+     * du nouvelle affichage pour les contacts.
+     */
+
     @Override
     protected void init() {
         cards = new JPanel(new CardLayout());
@@ -52,6 +66,11 @@ public class ContactMiddlePanel extends MyPanel {
         add(cards,BorderLayout.CENTER);
         add(search_bar,BorderLayout.NORTH);
         btnRetour.addActionListener(new ActionListener() {
+            /**
+             * une barre de recherche a été ajoutée avec la classe "actionPerformed"
+             * qui va appeler une méthode pour mettre à jour la liste selon la recherche effectuée.
+             * @param e
+             */
             @Override
             public void actionPerformed(ActionEvent e) {
                 search_bar.setVisible(true);
@@ -69,12 +88,23 @@ public class ContactMiddlePanel extends MyPanel {
 
 
     }
+
+    /**
+     * La méthode "updateDisplay" permet d'afficher les contact.
+     */
+
     private void  updateDisplay() {
         contactsPanel.removeAll();
         for (int i=0; i< ctct_list.getArrayList().size(); i++) {
             addContactToPanel(ctct_list.getArrayList().get(i));
         }
     }
+
+    /**
+     * Cette méthode permet d'ajouter les contact dans le panel selon la structuration
+     * mise en place ci-dessous.
+     * @param ctct
+     */
     private void addContactToPanel(Contact ctct) {
 
 
@@ -110,6 +140,12 @@ public class ContactMiddlePanel extends MyPanel {
         ctct.setOneContactPanel(oneContactPanel);
 
     }
+
+    /**
+     * la classe "DeleteContact" permets de supprimer un contact de la liste des contactes.
+     * cette classe a la méthode défini par la classe mère "ActionListener".
+     */
+
     class DeleteContact implements ActionListener {
         private Contact ctc;
         public DeleteContact(Contact ctc) {
@@ -122,6 +158,12 @@ public class ContactMiddlePanel extends MyPanel {
             updateDisplay();
         }
     }
+
+    /**
+     * La classe "EditContact" permet de modifier les attributs d'un contact
+     * selon ce qu'on souhaite modifier.
+     */
+
     class EditContact implements ActionListener {
         private Contact ctc;
         public EditContact(Contact ctc) {
@@ -134,6 +176,14 @@ public class ContactMiddlePanel extends MyPanel {
             contactPanel.setCurrContact(ctc);
         }
     }
+
+    /**
+     ** une barre de recherche a été ajoutée avec la classe "actionPerformed"
+     *  qui va appeler une méthode pour mettre à jour la liste selon la recherche effectuée.
+     *  cette recherche va réajuster la liste selon la recherche
+     */
+
+
     class FilterContact implements KeyListener {
 
         @Override

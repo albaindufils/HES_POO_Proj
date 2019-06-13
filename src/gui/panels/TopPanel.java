@@ -9,14 +9,26 @@ import java.time.LocalDateTime;
 
 
 public class TopPanel extends MyPanel  {
-    
+
+
+    /**
+     * Le JLabel ci-dessous va aider à ajouter l'horloge sur le haute de notre application.
+     *
+     */
 
     private JLabel datetime = new MyLabel(getTimeFormatted());
 
+    /**
+     * La méthode TopPanel va permettre de la'fficher au haut du cadre.
+     */
     public TopPanel() {
         super(new BorderLayout());
         init();
     }
+
+    /**
+     * cette méthode init va permettre son affichage à l'endroit souhaité.
+     */
 
     @Override
     protected void init() {
@@ -25,6 +37,10 @@ public class TopPanel extends MyPanel  {
         initDatetimeLable();
         setTimer();
     }
+
+    /**
+     * La méthode "setTimer" va permettre de configurer le bon format.
+     */
 
     private void setTimer() {
         Timer timer = new Timer(1000, e -> {

@@ -7,6 +7,11 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
+/**
+ * La classe "MyContactPanel" définit les différents attributs utilisé.
+ *
+ */
+
 public class MyContactPanel extends MyPanel {
 
     private JPanel topPanel;
@@ -21,12 +26,23 @@ public class MyContactPanel extends MyPanel {
     private JTextField txt_city;
     private Contact currContact;
 
+    /**
+     * Cette méthode va généré un nouveau layout pour cette panel.
+     * Elle va aussi lancer la méthode d'affichage.
+     */
+
     public MyContactPanel() {
         super(new BorderLayout());
 
 
         init();
     }
+
+    /**
+     * dans cette méthode les attributs ont été instancié dans la méthode init.
+     * elle va aussi aidé a redefinir l'affichage des contacts selon la structure prédefini ci-dessous.
+     * @return
+     */
     public JPanel getTopPanel() {
         return topPanel;
     }
@@ -79,6 +95,10 @@ public class MyContactPanel extends MyPanel {
 
     }
 
+    /**
+     * Cette méthode va aider à redefinir les attributs au moment de la modification.
+     * @param ctc
+     */
     public void setCurrContact(Contact ctc) {
         currContact = ctc;
         txt_firstName.setText(ctc.getFirstName());
@@ -91,6 +111,8 @@ public class MyContactPanel extends MyPanel {
         txt_city.setText(ctc.getcity());
 
     }
+
+
     class KeyWritted implements KeyListener {
         private String prop;
         public KeyWritted(String prop) {

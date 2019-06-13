@@ -20,7 +20,7 @@ public class MyJsonManager {
         this.jsonPath=path;
     }
     public JSONArray getReadedJson() {
-        try (FileReader reader = new FileReader(jsonPath))
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(ClassLoader.getSystemClassLoader().getResourceAsStream(jsonPath))))
         {
             Object obj = jsonParser.parse(reader);
             jsonArray = (JSONArray) obj;
@@ -31,11 +31,14 @@ public class MyJsonManager {
             e.printStackTrace();
         } catch (ParseException e) {
             e.printStackTrace();
+        } catch (NullPointerException e){
+            e.printStackTrace();
         }
         return null;
     }
     public void updateJson() {
-        try (FileWriter file = new FileWriter(jsonPath))
+        //try (FileWriter file = new FileWriter(getClass().getClassLoader().getResource(jsonPath).getPath()))
+        try (BufferedWriter file = new BufferedWriter(new FileWriter(jsonPath)))
         {
             file.write(jsonArray.toString());
         } catch (IOException e) {
